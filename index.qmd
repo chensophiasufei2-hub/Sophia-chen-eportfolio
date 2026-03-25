@@ -5,23 +5,22 @@ format:
     toc: false
 ---
 
-<div class="homepage-shell">
+<div id="home-main" class="homepage-shell">
 
 <div class="hero-grid">
 <div class="hero-text">
-
 <h1>Sophia Sufei Chen</h1>
 
 <div class="hero-subtitle">✨ Final-Year Business Studies Student | Business Analytics | Marketing Strategy | Process Improvement</div>
 
-<p>
-I am a final-year Business Studies student at Dublin City University with a strong interest in business analysis, marketing planning, and operational improvement. Through academic projects and internship experience, I have developed practical skills in commercial thinking, structured problem-solving, and professional communication.
+<p class="linkedin-callout">
+🔗 Let’s connect on LinkedIn and explore my academic background, business interests, and professional journey.
 </p>
 
 <a href="about.html" class="btn btn-primary">About Me</a>
 <a href="projects.html" class="btn btn-outline-primary">Projects</a>
 <a href="cv.html" class="btn btn-outline-dark">CV</a>
-
+<a href="https://www.linkedin.com/in/sophiasufei-chen-389591233" class="btn btn-outline-primary" target="_blank">LinkedIn</a>
 </div>
 
 <div class="hero-image">
@@ -69,21 +68,11 @@ I am a final-year Business Studies student at Dublin City University with a stro
 
 </div>
 
-<div class="section-title">
-<h2>🌟 Welcome</h2>
-</div>
-
-<div class="section-card">
-<p>
-This ePortfolio presents my academic background, project experience, and professional interests. It highlights my work in business analysis, marketing strategy, operational improvement, and customer-focused business development.
-</p>
-</div>
-
 <div class="contact-strip">
 <h3>📬 Contact</h3>
 <div class="contact-row">
-  <div class="contact-pill">📧 chensophia0921@gmail.com</div>
-  <div class="contact-pill">📱 +353 0876535880</div>
+<div class="contact-pill">📧 chensophia0921@gmail.com</div>
+<div class="contact-pill">📱 +353 0876535880</div>
 </div>
 </div>
 
