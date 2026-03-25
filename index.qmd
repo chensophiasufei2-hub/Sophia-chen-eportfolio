@@ -1,30 +1,53 @@
 ---
 title: "Home"
+format:
+  html:
+    toc: false
 ---
 
-::: {.hero}
+<div class="hero-grid">
+  <div class="hero-text">
+
 # Sophia Sufei Chen
 
-Final-Year Business Studies Student  
-**Business Analytics | Marketing Strategy | Process Improvement**
+<div class="hero-subtitle">Final-Year Business Studies Student | Business Analytics | Marketing Strategy | Process Improvement</div>
 
 I am a final-year Business Studies student at Dublin City University with a strong interest in business analysis, marketing planning, and operational improvement. Through academic projects and internship experience, I have developed practical skills in commercial thinking, structured problem-solving, and professional communication.
 
 [About Me](about.qmd){.btn .btn-primary}
 [Projects](projects.qmd){.btn .btn-outline-primary}
 [CV](cv.qmd){.btn .btn-outline-dark}
-:::
+
+  </div>
+
+  <div class="hero-image">
+    <img src="images/profile.jpg" alt="Sophia Sufei Chen profile photo">
+  </div>
+</div>
 
 ## Profile Highlights
 
-::: {.section-card}
-- Final-year Business Studies student at Dublin City University  
-- Academic focus on Business Analytics and Marketing Planning  
-- Accounting Assistant Intern with practical finance and operations exposure  
-- ACCA student with growing knowledge of accounting and professional practice  
-- Interested in graduate roles in business analysis, strategy, and process improvement
-:::
+<div class="highlight-grid">
+  <div class="highlight-card">
+    <strong>Business Analytics</strong><br>
+    Academic focus on structured analysis, decision-making, and business insight.
+  </div>
+  <div class="highlight-card">
+    <strong>Marketing Planning</strong><br>
+    Experience developing customer-focused strategy and value propositions.
+  </div>
+  <div class="highlight-card">
+    <strong>Accounting & ACCA</strong><br>
+    Practical finance exposure through internship experience and ACCA studies.
+  </div>
+  <div class="highlight-card">
+    <strong>Process Improvement</strong><br>
+    Strong interest in operational efficiency, cost analysis, and profitability.
+  </div>
+</div>
 
 ## Welcome
 
+<div class="section-card">
 This ePortfolio presents my academic background, project experience, and professional interests. It highlights my work in business analysis, marketing strategy, operational improvement, and customer-focused business development.
+</div>
