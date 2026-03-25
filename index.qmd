@@ -29,42 +29,30 @@ format:
 </div>
 
 <div class="section-title">
-<h2>✦ Profile Highlights</h2>
+<h2>Profile Highlights</h2>
 </div>
 
 <div class="highlight-grid">
 
-<a class="highlight-link" href="about.html">
 <div class="highlight-card card-blue-1">
-<div class="highlight-icon">👤</div>
-<h3>About Me</h3>
-<p>Academic background, internship experience, and professional interests.</p>
+<h3>Business Analytics</h3>
+<p>Academic focus on structured analysis, decision-making, and business insight.</p>
 </div>
-</a>
 
-<a class="highlight-link" href="projects.html">
 <div class="highlight-card card-blue-2">
-<div class="highlight-icon">📊</div>
-<h3>Projects</h3>
-<p>Business analysis, venture development, and practical project work.</p>
+<h3>Marketing Planning</h3>
+<p>Experience developing customer-focused strategy and value propositions.</p>
 </div>
-</a>
 
-<a class="highlight-link" href="cv.html">
 <div class="highlight-card card-blue-3">
-<div class="highlight-icon">📄</div>
-<h3>CV</h3>
-<p>Education, internship experience, work history, and key strengths.</p>
+<h3>Accounting &amp; ACCA</h3>
+<p>Practical finance exposure through internship experience and ACCA studies.</p>
 </div>
-</a>
 
-<a class="highlight-link" href="reflection.html">
 <div class="highlight-card card-blue-4">
-<div class="highlight-icon">💭</div>
-<h3>Reflection</h3>
-<p>Learning outcomes, portfolio development, and future direction.</p>
+<h3>Process Improvement</h3>
+<p>Strong interest in operational efficiency, cost analysis, and profitability.</p>
 </div>
-</a>
 
 </div>
 
