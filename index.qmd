@@ -5,54 +5,86 @@ format:
     toc: false
 ---
 
-::: {.hero-grid}
-::: {.hero-text}
+<div class="homepage-shell">
 
-# Sophia Sufei Chen
+<div class="hero-grid">
+<div class="hero-text">
 
-::: {.hero-subtitle}
-Final-Year Business Studies Student | Business Analytics | Marketing Strategy | Process Improvement
-:::
+<h1>Sophia Sufei Chen</h1>
 
+<div class="hero-subtitle">✨ Final-Year Business Studies Student | Business Analytics | Marketing Strategy | Process Improvement</div>
+
+<p>
 I am a final-year Business Studies student at Dublin City University with a strong interest in business analysis, marketing planning, and operational improvement. Through academic projects and internship experience, I have developed practical skills in commercial thinking, structured problem-solving, and professional communication.
+</p>
 
-[About Me](about.qmd){.btn .btn-primary}
-[Projects](projects.qmd){.btn .btn-outline-primary}
-[CV](cv.qmd){.btn .btn-outline-dark}
+<a href="about.html" class="btn btn-primary">About Me</a>
+<a href="projects.html" class="btn btn-outline-primary">Projects</a>
+<a href="cv.html" class="btn btn-outline-dark">CV</a>
 
-:::
+</div>
 
-::: {.hero-image}
-![](images/profile.jpg)
-:::
-:::
+<div class="hero-image">
+<img src="images/profile.jpg" alt="Sophia Sufei Chen profile photo">
+</div>
+</div>
 
-## Profile Highlights
+<div class="section-title">
+<h2>✦ Profile Highlights</h2>
+</div>
 
-::: {.highlight-grid}
-::: {.highlight-card}
-**Business Analytics**  
-Academic focus on structured analysis, decision-making, and business insight.
-:::
+<div class="highlight-grid">
 
-::: {.highlight-card}
-**Marketing Planning**  
-Experience developing customer-focused strategy and value propositions.
-:::
+<a class="highlight-link" href="about.html">
+<div class="highlight-card card-blue-1">
+<div class="highlight-icon">👤</div>
+<h3>About Me</h3>
+<p>Academic background, internship experience, and professional interests.</p>
+</div>
+</a>
 
-::: {.highlight-card}
-**Accounting & ACCA**  
-Practical finance exposure through internship experience and ACCA studies.
-:::
+<a class="highlight-link" href="projects.html">
+<div class="highlight-card card-blue-2">
+<div class="highlight-icon">📊</div>
+<h3>Projects</h3>
+<p>Business analysis, venture development, and practical project work.</p>
+</div>
+</a>
 
-::: {.highlight-card}
-**Process Improvement**  
-Strong interest in operational efficiency, cost analysis, and profitability.
-:::
-:::
+<a class="highlight-link" href="cv.html">
+<div class="highlight-card card-blue-3">
+<div class="highlight-icon">📄</div>
+<h3>CV</h3>
+<p>Education, internship experience, work history, and key strengths.</p>
+</div>
+</a>
 
-## Welcome
+<a class="highlight-link" href="reflection.html">
+<div class="highlight-card card-blue-4">
+<div class="highlight-icon">💭</div>
+<h3>Reflection</h3>
+<p>Learning outcomes, portfolio development, and future direction.</p>
+</div>
+</a>
 
-::: {.section-card}
+</div>
+
+<div class="section-title">
+<h2>🌟 Welcome</h2>
+</div>
+
+<div class="section-card">
+<p>
 This ePortfolio presents my academic background, project experience, and professional interests. It highlights my work in business analysis, marketing strategy, operational improvement, and customer-focused business development.
-:::
+</p>
+</div>
+
+<div class="contact-strip">
+<h3>📬 Contact</h3>
+<div class="contact-row">
+  <div class="contact-pill">📧 chensophia0921@gmail.com</div>
+  <div class="contact-pill">📱 +353 0876535880</div>
+</div>
+</div>
+
+</div>
