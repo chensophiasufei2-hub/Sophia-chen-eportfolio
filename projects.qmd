@@ -14,6 +14,8 @@ This page presents two projects that reflect my interests in business analysis, 
 ## Project 1: Park & Polish  
 ### Developing a Mobile Car Care Venture Through Market Analysis and Marketing Strategy
 
+![](images/park-polish-main.jpg){.project-image}
+
 Park & Polish was developed as part of a New Enterprise Development project. The concept focused on turning parked time into productive service time by offering a mobile car wash and detailing service while customers’ vehicles were already parked at locations such as golf clubs, airports, and business parks.
 
 ### Business Problem / Opportunity
@@ -41,6 +43,10 @@ This project drew on several business and marketing tools, including:
 
 The project materials also incorporated digital journey design, partnership logic, and retention strategy through memberships, referrals, and service quality systems.
 
+### Business Model Visual
+
+![](images/park-polish-model.jpg){.project-image}
+
 ### Key Insights
 
 Several insights shaped the final concept:
@@ -63,6 +69,8 @@ This project strengthened my understanding of customer-centred business design, 
 
 ## Project 2: Business Analysis and Process Improvement Project  
 ### Operational Cost Analysis and Profitability Improvement in a Cookie Manufacturing Business
+
+![](images/cookie-project.jpg){.project-image}
 
 This project focused on the analysis of a cookie manufacturing company, with the aim of improving both production and sales performance through better cost understanding and process evaluation.
 
