@@ -1,0 +1,24 @@
+
+project:
+  type: website
+
+website:
+  title: "Sophia Sufei Chen"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: projects.qmd
+        text: Projects
+      - href: cv.qmd
+        text: CV
+      - href: reflection.qmd
+        text: Reflection
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    css: styles.css

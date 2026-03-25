@@ -1,0 +1,9 @@
+---
+title: "CV"
+---
+
+# Curriculum Vitae
+
+My CV will be available here as a downloadable PDF.
+
+<!-- Later you will add your PDF link here -->
