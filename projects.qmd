@@ -32,12 +32,12 @@ My contribution focused on supporting the development of the business concept an
 
 This project drew on several business and marketing tools, including:
 
-- customer pain point analysis  
-- empathy mapping  
-- strategy canvas thinking  
-- value proposition development  
-- business model and growth planning  
-- KPI-based marketing evaluation  
+- customer pain point analysis
+- empathy mapping
+- strategy canvas thinking
+- value proposition development
+- business model and growth planning
+- KPI-based marketing evaluation
 
 The project materials also incorporated digital journey design, partnership logic, and retention strategy through memberships, referrals, and service quality systems.
 
@@ -45,10 +45,10 @@ The project materials also incorporated digital journey design, partnership logi
 
 Several insights shaped the final concept:
 
-- **Convenience as competitive advantage:** the business turned “lost” parking time into useful service time.  
-- **Digital experience as differentiation:** booking, payment, notifications, and loyalty features created a more seamless customer journey than traditional car washes.  
-- **Sustainability as part of the brand:** the concept used water-saving methods and biodegradable products to align with customer expectations and environmental priorities.  
-- **Scalability through partnerships:** partner venues such as clubs, airports, and parking facilities were central to both customer acquisition and trust-building.  
+- **Convenience as competitive advantage:** the business turned “lost” parking time into useful service time.
+- **Digital experience as differentiation:** booking, payment, notifications, and loyalty features created a more seamless customer journey than traditional car washes.
+- **Sustainability as part of the brand:** the concept used water-saving methods and biodegradable products to align with customer expectations and environmental priorities.
+- **Scalability through partnerships:** partner venues such as clubs, airports, and parking facilities were central to both customer acquisition and trust-building.
 - **Retention and quality systems matter:** memberships, referrals, before/after proof, reviews, and KPI dashboards were used to support repeat business and long-term growth.
 
 ### Outcome
@@ -82,11 +82,11 @@ I took lead responsibility for calculating production costs, analysing profit ma
 
 The project used a structured business analysis approach, including:
 
-- cost-benefit analysis  
-- process mapping  
-- profitability analysis  
-- supply chain review  
-- operational stage evaluation from sourcing to delivery  
+- cost-benefit analysis
+- process mapping
+- profitability analysis
+- supply chain review
+- operational stage evaluation from sourcing to delivery
 
 These methods helped break down the business into manageable stages and made it easier to identify where improvements could have the greatest impact.
 
@@ -98,10 +98,10 @@ The project highlighted that profitability is shaped not only by sales volume, b
 
 The final recommendations aimed to:
 
-- improve production efficiency  
-- reduce unnecessary cost across the supply chain  
-- strengthen margin performance  
-- support more sustainable profitability  
+- improve production efficiency
+- reduce unnecessary cost across the supply chain
+- strengthen margin performance
+- support more sustainable profitability
 
 This project strengthened my ability to connect operational data, financial analysis, and process evaluation in order to identify practical improvements for business performance.
 
