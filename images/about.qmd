@@ -1,0 +1,69 @@
+---
+title: "About"
+---
+
+<div class="hero-grid">
+  <div class="hero-text">
+
+# About Me
+
+I am a final-year Business Studies student at Dublin City University, with a strong academic focus on business analytics, marketing planning, and commercial problem-solving. Alongside my studies, I am currently working as an Accounting Assistant Intern, where I support day-to-day finance and administrative processes while gaining practical experience in financial documentation, organisation, and business operations.
+
+I am also pursuing ACCA studies, which are strengthening my understanding of accounting, finance, and professional practice. Through my education, internship experience, and project work, I have built a solid foundation in business analysis, structured thinking, and decision-making based on evidence and business objectives.
+
+My main professional interests lie in business analysis, marketing strategy, process improvement, and graduate roles where I can continue to develop analytical, strategic, and communication skills. I am particularly interested in projects that combine commercial insight with practical recommendations to improve performance, customer value, and operational efficiency.
+
+  </div>
+
+  <div class="hero-image">
+    <img src="images/about-photo.jpg" alt="Sophia Sufei Chen personal photo">
+  </div>
+</div>
+
+## Education
+
+<div class="section-card">
+
+- **Dublin City University**  
+  Bachelor’s degree in Business Studies, with focus on Business Analytics and Marketing Planning
+
+- **Rathmines College**  
+  QQI Level 5 in English (ESOL) and IT / Business
+
+</div>
+
+## Experience
+
+<div class="section-card">
+
+- **Accounting Assistant Intern**, PTB Accounting Ltd.  
+- **Retail Sales Assistant**, Allied Imports Ltd / Tipperary Crystal
+
+</div>
+
+## Core Skills
+
+<div class="section-card">
+
+- Business Analysis
+- Marketing Planning
+- Process Improvement
+- Cost-Benefit Analysis
+- Financial Documentation
+- Communication
+- Customer Service
+- Chinese & English
+
+</div>
+
+## Professional Interests
+
+<div class="section-card">
+
+- Business Analysis
+- Marketing Planning
+- Process Improvement
+- Financial and Operational Analysis
+- Graduate Business Roles
+
+</div>
