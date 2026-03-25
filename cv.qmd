@@ -4,6 +4,10 @@ title: "CV"
 
 # Curriculum Vitae
 
-My CV will be available here as a downloadable PDF.
+You can view or download my CV using the link below.
 
-<!-- Later you will add your PDF link here -->
+[Download my CV](cv.pdf){target="_blank"}
+
+## Summary
+
+My CV outlines my education, internship experience, customer-facing work experience, and developing interests in business analysis, marketing planning, and process improvement.
