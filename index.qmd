@@ -5,13 +5,24 @@ title: "Home"
 ::: {.hero}
 # Sophia Sufei Chen
 
-Business Studies Student | Business Analytics, Marketing Strategy & Process Improvement
+Final-Year Business Studies Student  
+**Business Analytics | Marketing Strategy | Process Improvement**
 
-I am a final-year Business Studies student at Dublin City University with academic interests in business analytics, marketing planning, and process improvement. Through university projects and internship experience, I have developed practical skills in business analysis, financial thinking, problem-solving, and professional communication.
+I am a final-year Business Studies student at Dublin City University with a strong interest in business analysis, marketing planning, and operational improvement. Through academic projects and internship experience, I have developed practical skills in commercial thinking, structured problem-solving, and professional communication.
 
 [About Me](about.qmd){.btn .btn-primary}
 [Projects](projects.qmd){.btn .btn-outline-primary}
 [CV](cv.qmd){.btn .btn-outline-dark}
+:::
+
+## Profile Highlights
+
+::: {.section-card}
+- Final-year Business Studies student at Dublin City University  
+- Academic focus on Business Analytics and Marketing Planning  
+- Accounting Assistant Intern with practical finance and operations exposure  
+- ACCA student with growing knowledge of accounting and professional practice  
+- Interested in graduate roles in business analysis, strategy, and process improvement
 :::
 
 ## Welcome
