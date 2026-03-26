@@ -25,35 +25,35 @@
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "A curated space to present my academic journey, project work, professional interests, and the experiences that continue to shape my growth."
+    "text": "Welcome\n  About\n  Explore\n  Highlights\n  Connect"
   },
   {
     "objectID": "index.html#welcome-to-my-portfolio",
     "href": "index.html#welcome-to-my-portfolio",
     "title": "Home",
-    "section": "",
-    "text": "A curated space to present my academic journey, project work, professional interests, and the experiences that continue to shape my growth."
+    "section": "Welcome to My Portfolio",
+    "text": "Welcome to My Portfolio\nA curated space to present my academic journey, project work, professional interests, and the experiences that continue to shape my growth."
   },
   {
-    "objectID": "index.html#explore-more",
-    "href": "index.html#explore-more",
+    "objectID": "index.html#home-explore",
+    "href": "index.html#home-explore",
     "title": "Home",
     "section": "Explore More",
     "text": "Explore More\n\n\n🌷 About Me\nA closer introduction to my academic background, personal story, and the experiences that shape who I am beyond the title on the page.\nEnter About\n\n\n📁 Projects\nExplore coursework, practical analysis, and business-focused project work that reflects both learning and application.\nView Projects\n\n\n✨ Skill Preview\nA hidden preview page that highlights how I think, work, and grow — from business analysis to communication and process improvement.\nOpen Skill Preview\n\n\n🌙 Reflection\nRead what I learned through building this portfolio, completing projects, and shaping a clearer direction for my future.\nRead Reflection"
   },
   {
-    "objectID": "index.html#profile-highlights",
-    "href": "index.html#profile-highlights",
+    "objectID": "index.html#home-highlights",
+    "href": "index.html#home-highlights",
     "title": "Home",
     "section": "Profile Highlights",
     "text": "Profile Highlights\n\n\nBusiness Analytics\nAcademic focus on structured analysis, decision-making, and business insight.\n\n\nMarketing Planning\nExperience developing customer-focused strategy and value propositions.\n\n\nAccounting & ACCA\nPractical finance exposure through internship experience and ACCA studies.\n\n\nProcess Improvement\nStrong interest in operational efficiency, cost analysis, and profitability.\n\n\n\n\n📫 Contact\n✉ chensophia0921@gmail.com\n\n\n📱 Phone\n+353 0876535880"
   },
   {
-    "objectID": "index.html#connect-with-me",
-    "href": "index.html#connect-with-me",
+    "objectID": "index.html#home-connect",
+    "href": "index.html#home-connect",
     "title": "Home",
     "section": "Connect With Me",
-    "text": "Connect With Me\n\n\n\nName \n\n\nEmail \n\n\n\nConnect Me\n\n\n\n&lt;p&gt;I have received your connect invitation 📧&lt;/p&gt;\n&lt;button type=\"button\" onclick=\"closeConnectModal()\"&gt;Close&lt;/button&gt;"
+    "text": "Connect With Me\n\n\n\nName \n\n\nEmail \n\n\n\nConnect Me\n\n\n  \n    ✉\n    Invitation Received\n    I have received your connect invitation 📧\n    Close"
   },
   {
     "objectID": "projects.html",

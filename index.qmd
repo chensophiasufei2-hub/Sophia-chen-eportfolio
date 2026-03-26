@@ -5,8 +5,19 @@ format:
     toc: false
 ---
 
+```{=html}
+<nav class="home-side-nav">
+  <a href="#home-welcome">Welcome</a>
+  <a href="#home-about">About</a>
+  <a href="#home-explore">Explore</a>
+  <a href="#home-highlights">Highlights</a>
+  <a href="#home-connect">Connect</a>
+</nav>
+```
 
-::: {.portfolio-banner}
+
+
+::: {.portfolio-banner #home-welcome}
 ::: {.portfolio-banner-inner}
 ## Welcome to My Portfolio
 
@@ -14,7 +25,7 @@ A curated space to present my academic journey, project work, professional inter
 :::
 :::
 
-::: {.home-hero-box}
+::: {.home-hero-box #home-about}
 :::: {.home-about-panel}
 ::: {.home-about-text}
 # Sophia Sufei Chen
@@ -37,7 +48,7 @@ A curated space to present my academic journey, project work, professional inter
 
 
 
-## Explore More
+## Explore More {#home-explore}
 
 :::: {.preview-entry-grid}
 ::: {.preview-entry-card .preview-card-about}
@@ -70,7 +81,7 @@ Read what I learned through building this portfolio, completing projects, and sh
 ::::
 
 
-## Profile Highlights
+## Profile Highlights {#home-highlights}
 
 :::: {.home-card-grid}
 ::: {.home-feature-card}
@@ -107,7 +118,7 @@ Strong interest in operational efficiency, cost analysis, and profitability.
 ::::
 
 
-## Connect With Me
+## Connect With Me {#home-connect}
 
 <form id="connectForm" class="connect-form">
 <div class="connect-grid">
@@ -124,8 +135,11 @@ Strong interest in operational efficiency, cost analysis, and profitability.
 
 <button type="submit" class="connect-btn">Connect Me</button>
 
+```{=html}
 <div id="connectModal" class="connect-modal">
   <div class="connect-modal-box">
+    <div class="connect-modal-icon">✉</div>
+    <h3>Invitation Received</h3>
     <p>I have received your connect invitation 📧</p>
     <button type="button" onclick="closeConnectModal()">Close</button>
   </div>
@@ -153,4 +167,40 @@ window.addEventListener("click", function(e) {
   }
 });
 </script>
+```
 </form>
+
+```{=html}
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const links = document.querySelectorAll(".home-side-nav a");
+  const sections = Array.from(links)
+    .map(link => document.querySelector(link.getAttribute("href")))
+    .filter(Boolean);
+
+  function setActive() {
+    let current = null;
+    const offset = window.innerHeight * 0.28;
+
+    sections.forEach(section => {
+      const rect = section.getBoundingClientRect();
+      if (rect.top <= offset && rect.bottom >= offset) {
+        current = section.id;
+      }
+    });
+
+    links.forEach(link => {
+      const target = link.getAttribute("href").replace("#", "");
+      if (target === current) {
+        link.classList.add("is-active");
+      } else {
+        link.classList.remove("is-active");
+      }
+    });
+  }
+
+  window.addEventListener("scroll", setActive, { passive: true });
+  setActive();
+});
+</script>
+```
