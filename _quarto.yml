@@ -1,7 +1,9 @@
 
 project:
   type: website
-
+  output-dir: _site
+  resources:
+    - images/*.mp4
 website:
   title: "Sophia Sufei Chen"
   navbar:

@@ -1,0 +1,44 @@
+---
+title: "Friends"
+format:
+  html:
+    toc: false
+---
+
+<video class="hero-video-only" autoplay muted loop playsinline>
+  <source src="images/friends-8.mp4" type="video/mp4">
+</video>
+
+# Friends
+
+The people who make life warmer — shared memories, laughter, support, and the moments that matter most.
+
+<div class="media-gallery">
+  <img src="images/friends-1.jpg" alt="Friends 1" class="media-thumb" onclick="openMediaModal(0, friendsMedia)">
+  <img src="images/friends-2.jpg" alt="Friends 2" class="media-thumb" onclick="openMediaModal(1, friendsMedia)">
+  <img src="images/friends-3.jpg" alt="Friends 3" class="media-thumb" onclick="openMediaModal(2, friendsMedia)">
+  <img src="images/friends-4.jpg" alt="Friends 4" class="media-thumb" onclick="openMediaModal(3, friendsMedia)">
+  <img src="images/friends-5.jpg" alt="Friends 5" class="media-thumb" onclick="openMediaModal(4, friendsMedia)">
+  <img src="images/friends-6.jpg" alt="Friends 6" class="media-thumb" onclick="openMediaModal(5, friendsMedia)">
+  <img src="images/friends-7.jpg" alt="Friends 7" class="media-thumb" onclick="openMediaModal(6, friendsMedia)">
+  <img src="images/friends-9.jpg" alt="Friends 9" class="media-thumb" onclick="openMediaModal(7, friendsMedia)">
+  <img src="images/friends-10.jpg" alt="Friends 10" class="media-thumb" onclick="openMediaModal(8, friendsMedia)">
+  <div class="video-thumb" onclick="openMediaModal(9, friendsMedia)">▶ Video</div>
+</div>
+
+<script>
+const friendsMedia = [
+  {type: "image", src: "images/friends-1.jpg"},
+  {type: "image", src: "images/friends-2.jpg"},
+  {type: "image", src: "images/friends-3.jpg"},
+  {type: "image", src: "images/friends-4.jpg"},
+  {type: "image", src: "images/friends-5.jpg"},
+  {type: "image", src: "images/friends-6.jpg"},
+  {type: "image", src: "images/friends-7.jpg"},
+  {type: "image", src: "images/friends-9.jpg"},
+  {type: "image", src: "images/friends-10.jpg"},
+  {type: "video", src: "images/friends-8.mp4"}
+];
+</script>
+
+<script src="gallery.js"></script>

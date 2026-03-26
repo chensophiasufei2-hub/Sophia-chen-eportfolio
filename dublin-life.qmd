@@ -1,0 +1,48 @@
+---
+title: "Dublin Life"
+format:
+  html:
+    toc: false
+---
+
+<video class="hero-video-only" autoplay muted loop playsinline>
+  <source src="images/dublin-life-6.mp4" type="video/mp4">
+</video>
+
+# Dublin Life
+
+A glimpse into my life in Dublin — study, city moments, friendships, and the quiet memories that shape my everyday experience.
+
+<div class="media-gallery">
+  <img src="images/dublin-life-1.jpg" alt="Dublin Life 1" class="media-thumb" onclick="openMediaModal(0, dublinMedia)">
+  <img src="images/dublin-life-2.jpg" alt="Dublin Life 2" class="media-thumb" onclick="openMediaModal(1, dublinMedia)">
+  <img src="images/dublin-life-3.jpg" alt="Dublin Life 3" class="media-thumb" onclick="openMediaModal(2, dublinMedia)">
+  <img src="images/dublin-life-8.jpg" alt="Dublin Life 8" class="media-thumb" onclick="openMediaModal(3, dublinMedia)">
+  <img src="images/dublin-life-9.jpg" alt="Dublin Life 9" class="media-thumb" onclick="openMediaModal(4, dublinMedia)">
+  <img src="images/dublin-life-10.jpg" alt="Dublin Life 10" class="media-thumb" onclick="openMediaModal(5, dublinMedia)">
+  <img src="images/dublin-life-11.jpg" alt="Dublin Life 11" class="media-thumb" onclick="openMediaModal(6, dublinMedia)">
+  <img src="images/dublin-life-12.jpg" alt="Dublin Life 12" class="media-thumb" onclick="openMediaModal(7, dublinMedia)">
+  <img src="images/dublin-life-13.jpg" alt="Dublin Life 13" class="media-thumb" onclick="openMediaModal(8, dublinMedia)">
+  <img src="images/dublin-life-14.jpg" alt="Dublin Life 14" class="media-thumb" onclick="openMediaModal(9, dublinMedia)">
+  <div class="video-thumb" onclick="openMediaModal(10, dublinMedia)">▶ Video 1</div>
+  <div class="video-thumb" onclick="openMediaModal(11, dublinMedia)">▶ Video 2</div>
+</div>
+
+<script>
+const dublinMedia = [
+  {type: "image", src: "images/dublin-life-1.jpg"},
+  {type: "image", src: "images/dublin-life-2.jpg"},
+  {type: "image", src: "images/dublin-life-3.jpg"},
+  {type: "image", src: "images/dublin-life-8.jpg"},
+  {type: "image", src: "images/dublin-life-9.jpg"},
+  {type: "image", src: "images/dublin-life-10.jpg"},
+  {type: "image", src: "images/dublin-life-11.jpg"},
+  {type: "image", src: "images/dublin-life-12.jpg"},
+  {type: "image", src: "images/dublin-life-13.jpg"},
+  {type: "image", src: "images/dublin-life-14.jpg"},
+  {type: "video", src: "images/dublin-life-6.mp4"},
+  {type: "video", src: "images/dublin-life-7.mp4"}
+];
+</script>
+
+<script src="gallery.js"></script>

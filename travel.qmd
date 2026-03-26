@@ -1,0 +1,46 @@
+---
+title: "Travel"
+format:
+  html:
+    toc: false
+---
+
+<video class="hero-video-only" autoplay muted loop playsinline>
+  <source src="images/travel-11.mp4" type="video/mp4">
+</video>
+
+# Travel
+
+Moments collected through travel — new cities, different cultures, and memories that broaden how I see the world.
+
+<div class="media-gallery">
+  <img src="images/travel-1.jpg" alt="Travel 1" class="media-thumb" onclick="openMediaModal(0, travelMedia)">
+  <img src="images/travel-2.jpg" alt="Travel 2" class="media-thumb" onclick="openMediaModal(1, travelMedia)">
+  <img src="images/travel-3.jpg" alt="Travel 3" class="media-thumb" onclick="openMediaModal(2, travelMedia)">
+  <img src="images/travel-4.jpg" alt="Travel 4" class="media-thumb" onclick="openMediaModal(3, travelMedia)">
+  <img src="images/travel-5.jpg" alt="Travel 5" class="media-thumb" onclick="openMediaModal(4, travelMedia)">
+  <img src="images/travel-6.jpg" alt="Travel 6" class="media-thumb" onclick="openMediaModal(5, travelMedia)">
+  <img src="images/travel-7.jpg" alt="Travel 7" class="media-thumb" onclick="openMediaModal(6, travelMedia)">
+  <img src="images/travel-9.jpg" alt="Travel 9" class="media-thumb" onclick="openMediaModal(7, travelMedia)">
+  <img src="images/travel-10.jpg" alt="Travel 10" class="media-thumb" onclick="openMediaModal(8, travelMedia)">
+  <div class="video-thumb" onclick="openMediaModal(9, travelMedia)">▶ Video 1</div>
+  <div class="video-thumb" onclick="openMediaModal(10, travelMedia)">▶ Video 2</div>
+</div>
+
+<script>
+const travelMedia = [
+  {type: "image", src: "images/travel-1.jpg"},
+  {type: "image", src: "images/travel-2.jpg"},
+  {type: "image", src: "images/travel-3.jpg"},
+  {type: "image", src: "images/travel-4.jpg"},
+  {type: "image", src: "images/travel-5.jpg"},
+  {type: "image", src: "images/travel-6.jpg"},
+  {type: "image", src: "images/travel-7.jpg"},
+  {type: "image", src: "images/travel-9.jpg"},
+  {type: "image", src: "images/travel-10.jpg"},
+  {type: "video", src: "images/travel-11.mp4"},
+  {type: "video", src: "images/travel-12.mp4"}
+];
+</script>
+
+<script src="gallery.js"></script>

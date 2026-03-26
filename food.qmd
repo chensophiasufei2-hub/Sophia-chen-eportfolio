@@ -1,0 +1,44 @@
+---
+title: "Food"
+format:
+  html:
+    toc: false
+---
+
+<video class="hero-video-only" autoplay muted loop playsinline>
+  <source src="images/food-10.mp4" type="video/mp4">
+</video>
+
+# Food
+
+A collection of cafés, comfort meals, desserts, and beautifully presented moments that make everyday life feel warm and memorable.
+
+<div class="media-gallery two-col-gallery">
+  <img src="images/food-1.jpg" alt="Food 1" class="media-thumb" onclick="openMediaModal(0, foodMedia)">
+  <img src="images/food-2.jpg" alt="Food 2" class="media-thumb" onclick="openMediaModal(1, foodMedia)">
+  <img src="images/food-3.jpg" alt="Food 3" class="media-thumb" onclick="openMediaModal(2, foodMedia)">
+  <img src="images/food-4.jpg" alt="Food 4" class="media-thumb" onclick="openMediaModal(3, foodMedia)">
+  <img src="images/food-5.jpg" alt="Food 5" class="media-thumb" onclick="openMediaModal(4, foodMedia)">
+  <img src="images/food-6.jpg" alt="Food 6" class="media-thumb" onclick="openMediaModal(5, foodMedia)">
+  <img src="images/food-7.jpg" alt="Food 7" class="media-thumb" onclick="openMediaModal(6, foodMedia)">
+  <img src="images/food-8.jpg" alt="Food 8" class="media-thumb" onclick="openMediaModal(7, foodMedia)">
+  <img src="images/food-9.jpg" alt="Food 9" class="media-thumb" onclick="openMediaModal(8, foodMedia)">
+  <div class="video-thumb" onclick="openMediaModal(9, foodMedia)">▶ Video</div>
+</div>
+
+<script>
+const foodMedia = [
+  {type: "image", src: "images/food-1.jpg"},
+  {type: "image", src: "images/food-2.jpg"},
+  {type: "image", src: "images/food-3.jpg"},
+  {type: "image", src: "images/food-4.jpg"},
+  {type: "image", src: "images/food-5.jpg"},
+  {type: "image", src: "images/food-6.jpg"},
+  {type: "image", src: "images/food-7.jpg"},
+  {type: "image", src: "images/food-8.jpg"},
+  {type: "image", src: "images/food-9.jpg"},
+  {type: "video", src: "images/food-10.mp4"}
+];
+</script>
+
+<script src="gallery.js"></script>

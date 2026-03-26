@@ -1,0 +1,42 @@
+---
+title: "Record the Scenery"
+format:
+  html:
+    toc: false
+---
+
+<video class="hero-video-only" autoplay muted loop playsinline>
+  <source src="images/scenery-9.mp4" type="video/mp4">
+</video>
+
+# Record the Scenery
+
+A visual diary of sunsets, streets, skies, and quiet corners — the small scenes I love to notice and remember.
+
+<div class="media-gallery">
+  <img src="images/scenery-1.jpg" alt="Scenery 1" class="media-thumb" onclick="openMediaModal(0, sceneryMedia)">
+  <img src="images/scenery-2.jpg" alt="Scenery 2" class="media-thumb" onclick="openMediaModal(1, sceneryMedia)">
+  <img src="images/scenery-3.jpg" alt="Scenery 3" class="media-thumb" onclick="openMediaModal(2, sceneryMedia)">
+  <img src="images/scenery-4.jpg" alt="Scenery 4" class="media-thumb" onclick="openMediaModal(3, sceneryMedia)">
+  <img src="images/scenery-5.jpg" alt="Scenery 5" class="media-thumb" onclick="openMediaModal(4, sceneryMedia)">
+  <img src="images/scenery-6.jpg" alt="Scenery 6" class="media-thumb" onclick="openMediaModal(5, sceneryMedia)">
+  <img src="images/scenery-7.jpg" alt="Scenery 7" class="media-thumb" onclick="openMediaModal(6, sceneryMedia)">
+  <img src="images/scenery-8.jpg" alt="Scenery 8" class="media-thumb" onclick="openMediaModal(7, sceneryMedia)">
+  <div class="video-thumb" onclick="openMediaModal(8, sceneryMedia)">▶ Video</div>
+</div>
+
+<script>
+const sceneryMedia = [
+  {type: "image", src: "images/scenery-1.jpg"},
+  {type: "image", src: "images/scenery-2.jpg"},
+  {type: "image", src: "images/scenery-3.jpg"},
+  {type: "image", src: "images/scenery-4.jpg"},
+  {type: "image", src: "images/scenery-5.jpg"},
+  {type: "image", src: "images/scenery-6.jpg"},
+  {type: "image", src: "images/scenery-7.jpg"},
+  {type: "image", src: "images/scenery-8.jpg"},
+  {type: "video", src: "images/scenery-9.mp4"}
+];
+</script>
+
+<script src="gallery.js"></script>

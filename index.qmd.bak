@@ -1,0 +1,67 @@
+---
+title: "Home"
+format:
+  html:
+    toc: false
+---
+
+<div id="home-main" class="homepage-shell">
+
+<div class="hero-grid">
+<div class="hero-text">
+<h1>Sophia Sufei Chen</h1>
+
+<div class="hero-subtitle">✨ Final-Year Business Studies Student | Business Analytics | Marketing Strategy | Process Improvement</div>
+
+<p class="linkedin-callout">
+🔗 Let’s connect on LinkedIn and explore my academic background, business interests, and professional journey.
+</p>
+
+<a href="about.html" class="btn btn-primary">About Me</a>
+<a href="projects.html" class="btn btn-outline-primary">Projects</a>
+<a href="cv.html" class="btn btn-outline-dark">CV</a>
+<a href="https://www.linkedin.com/in/sophiasufei-chen-389591233" class="btn btn-outline-primary" target="_blank">LinkedIn</a>
+</div>
+
+<div class="hero-image">
+<img src="images/profile.jpg" alt="Sophia Sufei Chen profile photo">
+</div>
+</div>
+
+<div class="section-title">
+<h2>Profile Highlights</h2>
+</div>
+
+<div class="highlight-grid">
+
+<div class="highlight-card card-blue-1">
+<h3>Business Analytics</h3>
+<p>Academic focus on structured analysis, decision-making, and business insight.</p>
+</div>
+
+<div class="highlight-card card-blue-2">
+<h3>Marketing Planning</h3>
+<p>Experience developing customer-focused strategy and value propositions.</p>
+</div>
+
+<div class="highlight-card card-blue-3">
+<h3>Accounting &amp; ACCA</h3>
+<p>Practical finance exposure through internship experience and ACCA studies.</p>
+</div>
+
+<div class="highlight-card card-blue-4">
+<h3>Process Improvement</h3>
+<p>Strong interest in operational efficiency, cost analysis, and profitability.</p>
+</div>
+
+</div>
+
+<div class="contact-strip">
+<h3>📬 Contact</h3>
+<div class="contact-row">
+<div class="contact-pill">📧 chensophia0921@gmail.com</div>
+<div class="contact-pill">📱 +353 0876535880</div>
+</div>
+</div>
+
+</div>

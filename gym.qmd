@@ -1,0 +1,26 @@
+---
+title: "Gym & Pilates"
+format:
+  html:
+    toc: false
+---
+
+# Gym & Pilates
+
+A space for balance, discipline, and energy — the routines that help me stay focused and grounded beyond study.
+
+<div class="media-gallery two-col-gallery">
+  <img src="images/gym-1.jpg" alt="Gym 1" class="media-thumb" onclick="openMediaModal(0, gymMedia)">
+  <img src="images/gym-2.jpg" alt="Gym 2" class="media-thumb" onclick="openMediaModal(1, gymMedia)">
+  <img src="images/gym-3.jpg" alt="Gym 3" class="media-thumb" onclick="openMediaModal(2, gymMedia)">
+</div>
+
+<script>
+const gymMedia = [
+  {type: "image", src: "images/gym-1.jpg"},
+  {type: "image", src: "images/gym-2.jpg"},
+  {type: "image", src: "images/gym-3.jpg"}
+];
+</script>
+
+<script src="gallery.js"></script>
