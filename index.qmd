@@ -5,63 +5,152 @@ format:
     toc: false
 ---
 
-<div id="home-main" class="homepage-shell">
 
-<div class="hero-grid">
-<div class="hero-text">
-<h1>Sophia Sufei Chen</h1>
+::: {.portfolio-banner}
+::: {.portfolio-banner-inner}
+## Welcome to My Portfolio
 
-<div class="hero-subtitle">✨ Final-Year Business Studies Student | Business Analytics | Marketing Strategy | Process Improvement</div>
+A curated space to present my academic journey, project work, professional interests, and the experiences that continue to shape my growth.
+:::
+:::
 
-<p class="linkedin-callout">
+::: {.home-hero-box}
+:::: {.home-about-panel}
+::: {.home-about-text}
+# Sophia Sufei Chen
+
+✨ Final-Year Business Studies Student | Business Analytics | Marketing Strategy | Process Improvement
+
 🔗 Let’s connect on LinkedIn and explore my academic background, business interests, and professional journey.
-</p>
 
-<a href="about.html" class="btn btn-primary">About Me</a>
-<a href="projects.html" class="btn btn-outline-primary">Projects</a>
-<a href="cv.html" class="btn btn-outline-dark">CV</a>
-<a href="https://www.linkedin.com/in/sophiasufei-chen-389591233" class="btn btn-outline-primary" target="_blank">LinkedIn</a>
+[About Me](about.html){.home-pill .home-pill-main}
+[Projects](projects.html){.home-pill}
+[CV](cv.html){.home-pill .home-pill-cv}
+[LinkedIn](https://www.linkedin.com/in/sophiasufei-chen-389591233){.home-pill}
+:::
+
+::: {.home-about-image}
+![](images/profile.jpg)
+:::
+::::
+:::
+
+
+
+## Explore More
+
+:::: {.preview-entry-grid}
+::: {.preview-entry-card .preview-card-about}
+### 🌷 About Me
+A closer introduction to my academic background, personal story, and the experiences that shape who I am beyond the title on the page.
+
+[Enter About](about.html){.preview-entry-link}
+:::
+
+::: {.preview-entry-card .preview-card-projects}
+### 📁 Projects
+Explore coursework, practical analysis, and business-focused project work that reflects both learning and application.
+
+[View Projects](projects.html){.preview-entry-link}
+:::
+
+::: {.preview-entry-card .preview-card-skills}
+### ✨ Skill Preview
+A hidden preview page that highlights how I think, work, and grow — from business analysis to communication and process improvement.
+
+[Open Skill Preview](skill-preview.html){.preview-entry-link}
+:::
+
+::: {.preview-entry-card .preview-card-reflection}
+### 🌙 Reflection
+Read what I learned through building this portfolio, completing projects, and shaping a clearer direction for my future.
+
+[Read Reflection](reflection.html){.preview-entry-link}
+:::
+::::
+
+
+## Profile Highlights
+
+:::: {.home-card-grid}
+::: {.home-feature-card}
+### Business Analytics
+Academic focus on structured analysis, decision-making, and business insight.
+:::
+
+::: {.home-feature-card}
+### Marketing Planning
+Experience developing customer-focused strategy and value propositions.
+:::
+
+::: {.home-feature-card}
+### Accounting & ACCA
+Practical finance exposure through internship experience and ACCA studies.
+:::
+
+::: {.home-feature-card}
+### Process Improvement
+Strong interest in operational efficiency, cost analysis, and profitability.
+:::
+::::
+
+:::: {.home-contact-grid}
+::: {.home-contact-card}
+### 📫 Contact
+✉ chensophia0921@gmail.com
+:::
+
+::: {.home-contact-card}
+### 📱 Phone
++353 0876535880
+:::
+::::
+
+
+## Connect With Me
+
+<form id="connectForm" class="connect-form">
+<div class="connect-grid">
+<div class="connect-field">
+<label for="visitor-name">Name</label>
+<input type="text" id="visitor-name" name="name" placeholder="Enter your name" required>
 </div>
 
-<div class="hero-image">
-<img src="images/profile.jpg" alt="Sophia Sufei Chen profile photo">
+<div class="connect-field">
+<label for="visitor-email">Email</label>
+<input type="email" id="visitor-email" name="email" placeholder="Enter your email" required>
 </div>
 </div>
 
-<div class="section-title">
-<h2>Profile Highlights</h2>
+<button type="submit" class="connect-btn">Connect Me</button>
+
+<div id="connectModal" class="connect-modal">
+  <div class="connect-modal-box">
+    <p>I have received your connect invitation 📧</p>
+    <button type="button" onclick="closeConnectModal()">Close</button>
+  </div>
 </div>
 
-<div class="highlight-grid">
+<script>
+const connectForm = document.getElementById("connectForm");
+const connectModal = document.getElementById("connectModal");
 
-<div class="highlight-card card-blue-1">
-<h3>Business Analytics</h3>
-<p>Academic focus on structured analysis, decision-making, and business insight.</p>
-</div>
+function closeConnectModal() {
+  connectModal.style.display = "none";
+}
 
-<div class="highlight-card card-blue-2">
-<h3>Marketing Planning</h3>
-<p>Experience developing customer-focused strategy and value propositions.</p>
-</div>
+if (connectForm) {
+  connectForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+    connectForm.reset();
+    connectModal.style.display = "flex";
+  });
+}
 
-<div class="highlight-card card-blue-3">
-<h3>Accounting &amp; ACCA</h3>
-<p>Practical finance exposure through internship experience and ACCA studies.</p>
-</div>
-
-<div class="highlight-card card-blue-4">
-<h3>Process Improvement</h3>
-<p>Strong interest in operational efficiency, cost analysis, and profitability.</p>
-</div>
-
-</div>
-
-<div class="contact-strip">
-<h3>📬 Contact</h3>
-<div class="contact-row">
-<div class="contact-pill">📧 chensophia0921@gmail.com</div>
-<div class="contact-pill">📱 +353 0876535880</div>
-</div>
-</div>
-
-</div>
+window.addEventListener("click", function(e) {
+  if (e.target === connectModal) {
+    closeConnectModal();
+  }
+});
+</script>
+</form>

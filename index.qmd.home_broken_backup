@@ -1,0 +1,73 @@
+---
+title: "Home"
+format:
+  html:
+    toc: false
+---
+
+<section class="home-showcase">
+
+  <div class="home-banner">
+    <img src="images/home-bg.jpg" alt="Homepage banner">
+    <div class="home-banner-overlay">
+      <h1>Sophia Sufei Chen</h1>
+      <p>Dream, explore, discover.</p>
+    </div>
+  </div>
+
+  <div class="home-nav-strip">
+    <a href="index.html" class="home-pill">Home</a>
+    <a href="about.html" class="home-pill">About Me</a>
+    <a href="projects.html" class="home-pill">Projects</a>
+    <a href="cv.html" class="home-pill">CV</a>
+    <a href="reflection.html" class="home-pill home-pill-right">Reflection</a>
+  </div>
+
+  <div class="home-about-panel">
+    <div class="home-about-text">
+      <h2>About Me</h2>
+      <p class="home-about-lead">
+        Final-Year Business Studies Student | Business Analytics | Marketing Strategy | Process Improvement
+      </p>
+      <p>
+        I am a final-year Business Studies student at Dublin City University with a strong interest in business analysis, marketing planning, and operational improvement.
+      </p>
+      <p>
+        This ePortfolio brings together my academic journey, project experience, personal growth, and the moments that inspire me beyond study.
+      </p>
+    </div>
+
+    <div class="home-about-image">
+      <img src="images/profile.jpg" alt="Sophia profile photo">
+    </div>
+  </div>
+
+  <div class="home-card-grid">
+    <a href="about.html" class="home-feature-card">
+      <h3>About</h3>
+      <p>Learn more about my academic background, personal story, and life beyond the CV.</p>
+    </a>
+
+    <a href="projects.html" class="home-feature-card">
+      <h3>Projects</h3>
+      <p>Explore my business analysis, venture development, and coursework projects.</p>
+    </a>
+
+    <a href="cv.html" class="home-feature-card">
+      <h3>CV</h3>
+      <p>View my education, internship experience, and professional profile.</p>
+    </a>
+
+    <a href="reflection.html" class="home-feature-card">
+      <h3>Reflection</h3>
+      <p>Read what I learned through building this portfolio and completing my projects.</p>
+    </a>
+  </div>
+
+  <div class="home-contact-bar">
+    <span>✉ chensophia0921@gmail.com</span>
+    <span>📞 +353 0876535880</span>
+    <span>🔗 www.linkedin.com/in/sophiasufei-chen-389591233</span>
+  </div>
+
+</section>

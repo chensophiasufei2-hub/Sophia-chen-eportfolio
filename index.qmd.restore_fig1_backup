@@ -1,0 +1,64 @@
+---
+title: "Home"
+format:
+  html:
+    toc: false
+---
+
+::: {.home-hero-box}
+:::: {.home-about-panel}
+::: {.home-about-text}
+# Sophia Sufei Chen
+
+✨ Final-Year Business Studies Student | Business Analytics | Marketing Strategy | Process Improvement
+
+🔗 Let’s connect on LinkedIn and explore my academic background, business interests, and professional journey.
+
+[Home](index.html){.home-pill .home-pill-main}
+[About](about.html){.home-pill}
+[Projects](projects.html){.home-pill}
+[CV](cv.html){.home-pill .home-pill-cv}
+[Reflection](reflection.html){.home-pill}
+:::
+
+::: {.home-about-image}
+![](images/profile.jpg)
+:::
+::::
+:::
+
+## Profile Highlights
+
+:::: {.home-card-grid}
+::: {.home-feature-card}
+### Business Analytics
+Academic focus on structured analysis, decision-making, and business insight.
+:::
+
+::: {.home-feature-card}
+### Marketing Planning
+Experience developing customer-focused strategy and value propositions.
+:::
+
+::: {.home-feature-card}
+### Accounting & ACCA
+Practical finance exposure through internship experience and ACCA studies.
+:::
+
+::: {.home-feature-card}
+### Process Improvement
+Strong interest in operational efficiency, cost analysis, and profitability.
+:::
+::::
+
+:::: {.home-contact-grid}
+::: {.home-contact-card}
+### 📫 Contact
+✉ chensophia0921@gmail.com
+:::
+
+::: {.home-contact-card}
+### 📱 Phone
++353 0876535880
+:::
+::::

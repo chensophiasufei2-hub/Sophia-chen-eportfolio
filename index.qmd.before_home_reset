@@ -1,0 +1,286 @@
+---
+title: "Home"
+format:
+  html:
+    toc: false
+---
+
+```{=html}
+<section class="home-showcase">
+
+  <div class="home-banner">
+    <img src="images/home-bg.jpg" alt="Homepage banner">
+    <div class="home-banner-overlay">
+      <h1>Sophia Sufei Chen</h1>
+      <p>Dream, explore, discover.</p>
+    </div>
+  </div>
+
+  <div class="home-nav-strip">
+    <a href="index.html" class="home-pill">Home</a>
+    <a href="about.html" class="home-pill">About Me</a>
+    <a href="projects.html" class="home-pill">Projects</a>
+    <a href="cv.html" class="home-pill">CV</a>
+    <a href="reflection.html" class="home-pill home-pill-right">Reflection</a>
+  </div>
+
+  <div class="home-about-panel">
+    <div class="home-about-text">
+      <h2>About Me</h2>
+      <p class="home-about-lead">
+        Final-Year Business Studies Student | Business Analytics | Marketing Strategy | Process Improvement
+      </p>
+      <p>
+        I am a final-year Business Studies student at Dublin City University with a strong interest in business analysis, marketing planning, and operational improvement.
+      </p>
+      <p>
+        This ePortfolio brings together my academic journey, project experience, personal growth, and the moments that inspire me beyond study.
+      </p>
+    </div>
+
+    <div class="home-about-image">
+      <img src="images/profile.jpg" alt="Sophia profile photo">
+    </div>
+  </div>
+
+  <div class="home-card-grid">
+    <a href="about.html" class="home-feature-card">
+      <h3>About</h3>
+      <p>Learn more about my academic background, personal story, and life beyond the CV.</p>
+    </a>
+
+    <a href="projects.html" class="home-feature-card">
+      <h3>Projects</h3>
+      <p>Explore my business analysis, venture development, and coursework projects.</p>
+    </a>
+
+    <a href="cv.html" class="home-feature-card">
+      <h3>CV</h3>
+      <p>View my education, internship experience, and professional profile.</p>
+    </a>
+
+    <a href="reflection.html" class="home-feature-card">
+      <h3>Reflection</h3>
+      <p>Read what I learned through building this portfolio and completing my projects.</p>
+    </a>
+  </div>
+
+  <div class="home-contact-bar">
+    <span>✉ chensophia0921@gmail.com</span>
+    <span>📞 +353 0876535880</span>
+    <span>🔗 www.linkedin.com/in/sophiasufei-chen-389591233</span>
+  </div>
+
+</section>
+---
+
+## 第三步：把首页样式加到 `styles.css` 最后
+
+```bash
+cat >> styles.css <<'EOF'
+
+/* ===== New Home Layout ===== */
+.home-showcase {
+  max-width: 1120px;
+  margin: 1.8rem auto 3rem auto;
+}
+
+.home-banner {
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 14px 30px rgba(80, 70, 120, 0.14);
+  min-height: 360px;
+}
+
+.home-banner img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  display: block;
+  filter: brightness(0.78) saturate(0.95);
+}
+
+.home-banner-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2.8rem;
+  color: white;
+  background: linear-gradient(90deg, rgba(40, 36, 64, 0.45) 0%, rgba(40, 36, 64, 0.08) 70%);
+}
+
+.home-banner-overlay h1 {
+  font-size: 3.2rem;
+  margin: 0 0 0.7rem 0;
+  font-weight: 800;
+  color: #ffffff !important;
+}
+
+.home-banner-overlay p {
+  margin: 0;
+  font-size: 1.2rem;
+  color: rgba(255,255,255,0.95) !important;
+}
+
+.home-nav-strip {
+  margin: 1.2rem 0 1.6rem 0;
+  background: #ede6f3;
+  border-radius: 18px;
+  padding: 0.9rem 1rem;
+  display: flex;
+  gap: 0.85rem;
+  align-items: center;
+  box-shadow: 0 8px 20px rgba(90, 76, 122, 0.10);
+}
+
+.home-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 78px;
+  height: 42px;
+  padding: 0 1rem;
+  border-radius: 999px;
+  background: #7e6a98;
+  color: #ffffff !important;
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.home-pill:hover {
+  transform: translateY(-2px);
+  opacity: 0.92;
+}
+
+.home-pill-right {
+  margin-left: auto;
+  background: #c8b8d9;
+  color: #4c3e64 !important;
+}
+
+.home-about-panel {
+  display: grid;
+  grid-template-columns: 1.3fr 0.8fr;
+  gap: 1.5rem;
+  background: #f4eef8;
+  border-radius: 26px;
+  padding: 2rem;
+  box-shadow: 0 12px 24px rgba(90, 76, 122, 0.10);
+}
+
+.home-about-text h2 {
+  font-size: 2.2rem;
+  margin: 0 0 0.7rem 0;
+  color: #4f4668;
+}
+
+.home-about-lead {
+  font-weight: 700;
+  color: #7a6a98 !important;
+  margin-bottom: 1rem;
+}
+
+.home-about-text p {
+  color: #5a5368;
+  line-height: 1.8;
+}
+
+.home-about-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-about-image img {
+  width: 100%;
+  max-width: 280px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 24px;
+  box-shadow: 0 10px 24px rgba(80, 70, 120, 0.14);
+}
+
+.home-card-grid {
+  margin-top: 1.6rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.1rem;
+}
+
+.home-feature-card {
+  display: block;
+  background: linear-gradient(180deg, #efe8f5 0%, #e6dcef 100%);
+  border-radius: 22px;
+  padding: 1.4rem 1.2rem;
+  text-decoration: none;
+  box-shadow: 0 10px 22px rgba(90, 76, 122, 0.10);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.home-feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 28px rgba(90, 76, 122, 0.16);
+}
+
+.home-feature-card h3 {
+  margin: 0 0 0.55rem 0;
+  color: #5c4d75;
+  font-size: 1.3rem;
+}
+
+.home-feature-card p {
+  margin: 0;
+  color: #645d74;
+  line-height: 1.7;
+  font-size: 0.96rem;
+}
+
+.home-contact-bar {
+  margin-top: 1.6rem;
+  background: #d9cde7;
+  border-radius: 18px;
+  padding: 1rem 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  color: #4f4668;
+  font-weight: 600;
+  box-shadow: 0 8px 18px rgba(90, 76, 122, 0.08);
+}
+
+@media (max-width: 980px) {
+  .home-about-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .home-card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .home-banner-overlay h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .home-card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-nav-strip {
+    flex-wrap: wrap;
+  }
+
+  .home-pill-right {
+    margin-left: 0;
+  }
+
+  .home-banner img {
+    height: 280px;
+  }
+}

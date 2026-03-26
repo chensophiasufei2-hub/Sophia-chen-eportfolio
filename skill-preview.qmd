@@ -1,0 +1,98 @@
+---
+title: "Skill Preview"
+format:
+  html:
+    toc: false
+---
+
+::: {.skill-preview-page}
+
+:::: {.skill-hero-panel}
+::: {.skill-hero-text}
+# Skill Preview
+
+A refined look at the strengths behind my portfolio — how I think, work, communicate, and grow through academic learning, project practice, and professional preparation.
+
+My interests are rooted in business analysis, marketing planning, process improvement, and clear communication. I enjoy turning complexity into structure, and ideas into something practical, polished, and meaningful.
+:::
+
+::: {.skill-hero-side}
+### ✨ Key Strengths
+
+- Structured thinking  
+- Analytical mindset  
+- Clear communication  
+- Business curiosity  
+- Continuous growth
+:::
+::::
+
+## Core Skill Areas
+
+:::: {.skill-preview-grid}
+::: {.skill-preview-card}
+### 📊 Business Analysis
+I enjoy understanding how information connects, where problems begin, and how insight can support better decisions. I am especially drawn to structured analysis, interpretation, and translating findings into practical action.
+:::
+
+::: {.skill-preview-card}
+### 📈 Marketing Planning
+I like exploring how customer needs, communication, and strategy come together. Marketing, to me, is most interesting when creativity is supported by logic, positioning, and clear value creation.
+:::
+
+::: {.skill-preview-card}
+### 💼 Accounting & ACCA
+My learning in accounting and ACCA-related areas has strengthened my financial awareness, attention to detail, and confidence in business fundamentals. It has helped me become more disciplined, precise, and professionally grounded.
+:::
+
+::: {.skill-preview-card}
+### ⚙️ Process Improvement
+I am interested in how work can become more efficient, smoother, and better organised. I enjoy noticing where improvements can be made and thinking in ways that make systems clearer and more effective.
+:::
+::::
+
+## How I Work
+
+:::: {.skill-story-grid}
+::: {.skill-story-box}
+### 🧠 Think Clearly
+I prefer to break large ideas into manageable parts, identify the core issue, and approach tasks with structure and calm focus.
+:::
+
+::: {.skill-story-box}
+### 🤝 Communicate Thoughtfully
+I value communication that is clear, respectful, and purposeful — whether in teamwork, presentation, or written work.
+:::
+
+::: {.skill-story-box}
+### 🌱 Grow Continuously
+I am still building my path, and I see that as a strength. Each project, challenge, and experience teaches me something I can carry forward.
+:::
+::::
+
+## Snapshot of My Working Style
+
+:::: {.skill-timeline}
+::: {.skill-timeline-item}
+#### 01 · Observe
+I start by understanding context, expectations, and the real purpose behind a task.
+:::
+
+::: {.skill-timeline-item}
+#### 02 · Organise
+I like bringing order to ideas — grouping, simplifying, and building a clearer direction.
+:::
+
+::: {.skill-timeline-item}
+#### 03 · Deliver
+I focus on outcomes that feel clear, polished, and useful rather than rushed or superficial.
+:::
+::::
+
+## Looking Forward
+
+::: {.skill-future-box}
+I hope to continue developing in business-focused graduate roles where analysis, communication, customer understanding, and improvement-minded thinking can create real value. My goal is not only to build stronger technical skills, but also to become someone who contributes with clarity, curiosity, and professionalism.
+:::
+
+:::

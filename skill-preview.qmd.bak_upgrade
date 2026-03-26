@@ -1,0 +1,67 @@
+---
+title: "Skill Preview"
+format:
+  html:
+    toc: false
+---
+
+::: {.skill-preview-page}
+
+::: {.skill-preview-hero}
+# Skill Preview
+
+A closer look at the strengths behind my academic journey, project work, and professional direction.
+
+I enjoy turning ideas into structure, data into insight, and tasks into meaningful outcomes. My skill set is still growing — but it is already grounded in curiosity, discipline, communication, and a real interest in business improvement.
+:::
+
+## What I Bring
+
+:::: {.skill-preview-grid}
+::: {.skill-preview-card}
+### 📊 Business Analysis
+I enjoy looking beneath the surface of a problem, organising information clearly, and turning observations into practical business insight. Whether through coursework or projects, I am drawn to structured thinking and evidence-based decision-making.
+:::
+
+::: {.skill-preview-card}
+### 📈 Marketing Planning
+From customer understanding to value proposition design, I am interested in how thoughtful strategy can shape engagement and growth. I enjoy connecting creativity with logic and translating ideas into realistic plans.
+:::
+
+::: {.skill-preview-card}
+### 💼 Accounting & ACCA
+My internship exposure and ACCA learning have helped me build a stronger financial foundation. This has improved my attention to detail, understanding of reporting, and confidence in working with numbers in a professional setting.
+:::
+
+::: {.skill-preview-card}
+### ⚙️ Process Improvement
+I am especially interested in how businesses can work more efficiently. I like spotting where something can be simplified, clarified, or improved — whether in workflows, customer experience, or internal organisation.
+:::
+::::
+
+## How I Work
+
+:::: {.skill-story-grid}
+::: {.skill-story-box}
+### 🧠 Structured Thinking
+I like breaking large tasks into clear steps and keeping work organised, focused, and purposeful.
+:::
+
+::: {.skill-story-box}
+### 🤝 Communication
+I value clarity, teamwork, and presenting ideas in a way that is thoughtful, professional, and easy to understand.
+:::
+
+::: {.skill-story-box}
+### 🌱 Growth Mindset
+I see each project, course, and challenge as a chance to grow — not just academically, but personally and professionally too.
+:::
+::::
+
+## Why This Page Is Hidden
+
+::: {.skill-note-box}
+This page is designed as a quiet preview space — a more focused look at the strengths behind the portfolio. It is not placed in the main navigation, which makes it feel a little more personal and intentional.
+:::
+
+:::

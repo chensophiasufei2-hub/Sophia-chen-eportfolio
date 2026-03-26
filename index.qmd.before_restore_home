@@ -1,0 +1,74 @@
+---
+title: "Home"
+format:
+  html:
+    toc: false
+---
+
+![](images/home-bg.jpg){.home-banner-img}
+
+::: {.home-banner-text}
+# Sophia Sufei Chen
+
+Dream, explore, discover.
+:::
+
+::: {.home-nav-strip}
+[Home](index.html){.home-pill}
+[About Me](about.html){.home-pill}
+[Projects](projects.html){.home-pill}
+[CV](cv.html){.home-pill}
+[Reflection](reflection.html){.home-pill .home-pill-right}
+:::
+
+:::: {.home-about-panel}
+::: {.home-about-text}
+## About Me
+
+Final-Year Business Studies Student | Business Analytics | Marketing Strategy | Process Improvement { .home-about-lead }
+
+I am a final-year Business Studies student at Dublin City University with a strong interest in business analysis, marketing planning, and operational improvement.
+
+This ePortfolio brings together my academic journey, project experience, personal growth, and the moments that inspire me beyond study.
+:::
+
+::: {.home-about-image}
+![](images/profile.jpg)
+:::
+::::
+
+:::: {.home-card-grid}
+::: {.home-feature-card}
+### About
+Learn more about my academic background, personal story, and life beyond the CV.
+
+[Enter](about.html){.home-card-link}
+:::
+
+::: {.home-feature-card}
+### Projects
+Explore my business analysis, venture development, and coursework projects.
+
+[Enter](projects.html){.home-card-link}
+:::
+
+::: {.home-feature-card}
+### CV
+View my education, internship experience, and professional profile.
+
+[Enter](cv.html){.home-card-link}
+:::
+
+::: {.home-feature-card}
+### Reflection
+Read what I learned through building this portfolio and completing my projects.
+
+[Enter](reflection.html){.home-card-link}
+:::
+::::
+
+::: {.home-contact-bar}
+✉ chensophia0921@gmail.com  
+📞 +353 0876535880  
+🔗 www.linkedin.com/in/sophiasufei-chen-389591233
+:::
