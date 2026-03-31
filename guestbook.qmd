@@ -1,0 +1,5 @@
+cd ~/Desktop/Sophia-chen-eportfolio
+cp guestbook.qmd guestbook.qmd.backup 2>/dev/null || true
+pbpaste > guestbook.qmd
+quarto render guestbook.qmd
+quarto preview

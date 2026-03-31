@@ -1,0 +1,3 @@
+cd ~/Desktop/Sophia-chen-eportfolio
+cp index.qmd index.qmd.backup
+pbpaste > index.qmd

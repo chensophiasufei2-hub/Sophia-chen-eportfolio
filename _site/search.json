@@ -53,7 +53,7 @@
     "href": "index.html#home-connect",
     "title": "Home",
     "section": "Connect With Me",
-    "text": "Connect With Me\n\n\n\nName \n\n\nEmail \n\n\n\nConnect Me\n\n\n  \n    ✉\n    Invitation Received\n    I have received your connect invitation 📧\n    Close"
+    "text": "Connect With Me\n\n\n\nName \n\n\nEmail \n\n\n\nConnect Me\n\n\n  \n    ✉\n    Invitation Received\n    I have received your connect invitation 📧\n    Close\n  \n\n\n\n\n\n\n  \n    \n      \n        Guestbook\n        Drop a sweet message here ✨\n      \n      —\n    \n\n    \n\n    \n      \n      \n      Post Message"
   },
   {
     "objectID": "projects.html",
@@ -112,11 +112,11 @@
     "text": "As I continue developing this portfolio, I plan to extend the analytical side of my professional project further by adding examples of SQL queries, Python-based analysis, and supporting visualisations. This will allow me to present not only the business logic behind my work, but also the technical and analytical tools I am developing through my studies, which is important for aligning the portfolio with the assignment requirements."
   },
   {
-    "objectID": "gym.html",
-    "href": "gym.html",
-    "title": "Gym & Pilates",
+    "objectID": "reflection.html",
+    "href": "reflection.html",
+    "title": "Reflection",
     "section": "",
-    "text": "Gym & Pilates\nA space for balance, discipline, and energy — the routines that help me stay focused and grounded beyond study."
+    "text": "Reflection\nDeveloping this portfolio has helped me think more critically about how academic work can be presented in a professional and accessible way. Rather than simply listing modules or assignments, I have had to reflect on what each experience says about my strengths, interests, and future direction.\nThrough building this portfolio, I have become more aware of the connection between business analysis, communication, and digital presentation. My academic projects, particularly in enterprise development and process improvement, showed me that strong ideas need to be supported by clear structure, evidence, and practical recommendations.\nThis process also encouraged me to think more carefully about my career direction. I am especially interested in roles that combine analytical thinking with business decision-making, including business analysis, marketing planning, and process improvement."
   },
   {
     "objectID": "skill-preview.html",
@@ -154,11 +154,18 @@
     "text": "I hope to continue developing in business-focused graduate roles where analysis, communication, customer understanding, and improvement-minded thinking can create real value. My goal is not only to build stronger technical skills, but also to become someone who contributes with clarity, curiosity, and professionalism."
   },
   {
-    "objectID": "reflection.html",
-    "href": "reflection.html",
-    "title": "Reflection",
+    "objectID": "gym.html",
+    "href": "gym.html",
+    "title": "Gym & Pilates",
     "section": "",
-    "text": "Reflection\nDeveloping this portfolio has helped me think more critically about how academic work can be presented in a professional and accessible way. Rather than simply listing modules or assignments, I have had to reflect on what each experience says about my strengths, interests, and future direction.\nThrough building this portfolio, I have become more aware of the connection between business analysis, communication, and digital presentation. My academic projects, particularly in enterprise development and process improvement, showed me that strong ideas need to be supported by clear structure, evidence, and practical recommendations.\nThis process also encouraged me to think more carefully about my career direction. I am especially interested in roles that combine analytical thinking with business decision-making, including business analysis, marketing planning, and process improvement."
+    "text": "Gym & Pilates\nA space for balance, discipline, and energy — the routines that help me stay focused and grounded beyond study."
+  },
+  {
+    "objectID": "guestbook.html",
+    "href": "guestbook.html",
+    "title": "Sophia Sufei Chen",
+    "section": "",
+    "text": "cd ~/Desktop/Sophia-chen-eportfolio cp guestbook.qmd guestbook.qmd.backup 2&gt;/dev/null || true pbpaste &gt; guestbook.qmd quarto render guestbook.qmd quarto preview"
   },
   {
     "objectID": "images/about.html",

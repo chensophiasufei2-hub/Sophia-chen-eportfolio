@@ -1,0 +1,207 @@
+
+---
+title: "Home"
+format:
+  html:
+    toc: false
+---
+
+```{=html}
+<nav class="home-side-nav">
+  <a href="#home-welcome">Welcome</a>
+  <a href="#home-about">About</a>
+  <a href="#home-explore">Explore</a>
+  <a href="#home-highlights">Highlights</a>
+  <a href="#home-connect">Connect</a>
+</nav>
+```
+
+
+
+::: {.portfolio-banner #home-welcome}
+::: {.portfolio-banner-inner}
+## Welcome to My Portfolio
+
+A curated space to present my academic journey, project work, professional interests, and the experiences that continue to shape my growth.
+:::
+:::
+
+::: {.home-hero-box #home-about}
+:::: {.home-about-panel}
+::: {.home-about-text}
+# Sophia Sufei Chen
+
+✨ Final-Year Business Studies Student | Business Analytics | Marketing Strategy | Process Improvement
+
+🔗 Let’s connect on LinkedIn and explore my academic background, business interests, and professional journey.
+
+[About Me](about.html){.home-pill .home-pill-main}
+[Projects](projects.html){.home-pill}
+[CV](cv.html){.home-pill .home-pill-cv}
+[LinkedIn](https://www.linkedin.com/in/sophiasufei-chen-389591233){.home-pill}
+:::
+
+::: {.home-about-image}
+![](images/profile.jpg)
+:::
+::::
+:::
+
+
+
+## Explore More {#home-explore}
+
+:::: {.preview-entry-grid}
+::: {.preview-entry-card .preview-card-about}
+### 🌷 About Me
+A closer introduction to my academic background, personal story, and the experiences that shape who I am beyond the title on the page.
+
+[Enter About](about.html){.preview-entry-link}
+:::
+
+::: {.preview-entry-card .preview-card-projects}
+### 📁 Projects
+Explore coursework, practical analysis, and business-focused project work that reflects both learning and application.
+
+[View Projects](projects.html){.preview-entry-link}
+:::
+
+::: {.preview-entry-card .preview-card-skills}
+### ✨ Skill Preview
+A hidden preview page that highlights how I think, work, and grow — from business analysis to communication and process improvement.
+
+[Open Skill Preview](skill-preview.html){.preview-entry-link}
+:::
+
+::: {.preview-entry-card .preview-card-reflection}
+### 🌙 Reflection
+Read what I learned through building this portfolio, completing projects, and shaping a clearer direction for my future.
+
+[Read Reflection](reflection.html){.preview-entry-link}
+:::
+::::
+
+
+## Profile Highlights {#home-highlights}
+
+:::: {.home-card-grid}
+::: {.home-feature-card}
+### Business Analytics
+Academic focus on structured analysis, decision-making, and business insight.
+:::
+
+::: {.home-feature-card}
+### Marketing Planning
+Experience developing customer-focused strategy and value propositions.
+:::
+
+::: {.home-feature-card}
+### Accounting & ACCA
+Practical finance exposure through internship experience and ACCA studies.
+:::
+
+::: {.home-feature-card}
+### Process Improvement
+Strong interest in operational efficiency, cost analysis, and profitability.
+:::
+::::
+
+:::: {.home-contact-grid}
+::: {.home-contact-card}
+### 📫 Contact
+✉ chensophia0921@gmail.com
+:::
+
+::: {.home-contact-card}
+### 📱 Phone
++353 0876535880
+:::
+::::
+
+
+## Connect With Me {#home-connect}
+
+<form id="connectForm" class="connect-form">
+<div class="connect-grid">
+<div class="connect-field">
+<label for="visitor-name">Name</label>
+<input type="text" id="visitor-name" name="name" placeholder="Enter your name" required>
+</div>
+
+<div class="connect-field">
+<label for="visitor-email">Email</label>
+<input type="email" id="visitor-email" name="email" placeholder="Enter your email" required>
+</div>
+</div>
+
+<button type="submit" class="connect-btn">Connect Me</button>
+
+```{=html}
+<div id="connectModal" class="connect-modal">
+  <div class="connect-modal-box">
+    <div class="connect-modal-icon">✉</div>
+    <h3>Invitation Received</h3>
+    <p>I have received your connect invitation 📧</p>
+    <button type="button" onclick="closeConnectModal()">Close</button>
+  </div>
+</div>
+
+<script>
+const connectForm = document.getElementById("connectForm");
+const connectModal = document.getElementById("connectModal");
+
+function closeConnectModal() {
+  connectModal.style.display = "none";
+}
+
+if (connectForm) {
+  connectForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+    connectForm.reset();
+    connectModal.style.display = "flex";
+  });
+}
+
+window.addEventListener("click", function(e) {
+  if (e.target === connectModal) {
+    closeConnectModal();
+  }
+});
+</script>
+```
+</form>
+
+```{=html}
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const links = document.querySelectorAll(".home-side-nav a");
+  const sections = Array.from(links)
+    .map(link => document.querySelector(link.getAttribute("href")))
+    .filter(Boolean);
+
+  function setActive() {
+    let current = null;
+    const offset = window.innerHeight * 0.28;
+
+    sections.forEach(section => {
+      const rect = section.getBoundingClientRect();
+      if (rect.top <= offset && rect.bottom >= offset) {
+        current = section.id;
+      }
+    });
+
+    links.forEach(link => {
+      const target = link.getAttribute("href").replace("#", "");
+      if (target === current) {
+        link.classList.add("is-active");
+      } else {
+        link.classList.remove("is-active");
+      }
+    });
+  }
+
+  window.addEventListener("scroll", setActive, { passive: true });
+  setActive();
+});
+</script>
+```
