@@ -306,6 +306,105 @@ document.addEventListener("DOMContentLoaded", function () {
   setActive();
 });
 </script>
+<div class="guestbook-widget" id="guestbookWidget">
+  <div class="guestbook-shell">
+    <div class="guestbook-header">
+      <div>
+        <h3 class="anchored">Guestbook</h3>
+        <p>Drop a sweet message here ✨</p>
+      </div>
+      <button class="guestbook-toggle" id="guestbookToggle" type="button">—</button>
+    </div>
+
+    <div class="guestbook-list" id="guestbookList"></div>
+
+    <form class="guestbook-form" id="guestbookForm">
+      <input type="text" id="guestbookName" placeholder="Your name" maxlength="18" required="">
+      <textarea id="guestbookMessage" placeholder="Write your message..." maxlength="120" required=""></textarea>
+      <button type="submit">Post Message</button>
+    </form>
+  </div>
+</div>
+
+<script>
+(function () {
+  const widget = document.getElementById("guestbookWidget");
+  const list = document.getElementById("guestbookList");
+  const form = document.getElementById("guestbookForm");
+  const nameInput = document.getElementById("guestbookName");
+  const messageInput = document.getElementById("guestbookMessage");
+  const toggleBtn = document.getElementById("guestbookToggle");
+  const storageKey = "sophiaPortfolioGuestbook";
+
+  const defaults = [
+    { name: "Emily", text: "Your portfolio feels so elegant and personal — I loved scrolling through it 💜", avatar: "🩰" },
+    { name: "Luca", text: "The design is soft, dreamy, and really memorable. It feels like you.", avatar: "🎧" },
+    { name: "Sophie", text: "Welcome to my little corner of the internet ✨ Thanks for being here.", avatar: "🌷" },
+    { name: "Mia", text: "The About page and Behind the CV section are my favorite parts so far!", avatar: "☁️" },
+    { name: "Noah", text: "This space feels warm, thoughtful, and full of personality.", avatar: "🫶" }
+  ];
+
+  function getMessages() {
+    try {
+      const raw = localStorage.getItem(storageKey);
+      if (!raw) return defaults;
+      const parsed = JSON.parse(raw);
+      return Array.isArray(parsed) && parsed.length ? parsed : defaults;
+    } catch (e) {
+      return defaults;
+    }
+  }
+
+  function saveMessages(messages) {
+    localStorage.setItem(storageKey, JSON.stringify(messages));
+  }
+
+  const avatarPool = ["🩰","🎀","🌷","☁️","🫶","🎧","✨","🫧","🍓","🐰","🌙","🧸"];
+
+  function pickAvatar(name) {
+    if (!name) return "💬";
+    let sum = 0;
+    for (let i = 0; i < name.length; i++) sum += name.charCodeAt(i);
+    return avatarPool[sum % avatarPool.length];
+  }
+
+  function renderMessages() {
+    const messages = getMessages();
+    list.innerHTML = messages.map((item, index) => {
+      const side = index % 2 === 0 ? "left" : "right";
+      return `
+        <div class="guestbook-bubble ${side}">
+          <div class="guestbook-avatar">${item.avatar || pickAvatar(item.name)}</div>
+          <div class="guestbook-content">
+            <div class="guestbook-name">${item.name}</div>
+            <div class="guestbook-text">${item.text}</div>
+          </div>
+        </div>
+      `;
+    }).join("");
+  }
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    const name = nameInput.value.trim();
+    const text = messageInput.value.trim();
+    if (!name || !text) return;
+
+    const messages = getMessages();
+    messages.push({ name, text, avatar: pickAvatar(name) });
+    saveMessages(messages);
+    renderMessages();
+    form.reset();
+  });
+
+  toggleBtn.addEventListener("click", function () {
+    widget.classList.toggle("is-collapsed");
+    toggleBtn.textContent = widget.classList.contains("is-collapsed") ? "+" : "—";
+  });
+
+  renderMessages();
+})();
+</script>
 
 
 </section>
