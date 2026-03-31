@@ -4799,3 +4799,18 @@ body {
     margin-right: 0 !important;
   }
 }
+
+
+/* ===== About Me soft purple transparent card ===== */
+.about-hero,
+.about-page .about-hero,
+#about-me,
+.about-intro-card {
+  background: rgba(237, 231, 255, 0.58) !important;
+  border: 1px solid rgba(184, 171, 224, 0.28) !important;
+  border-radius: 30px !important;
+  box-shadow: 0 14px 32px rgba(120, 110, 170, 0.08) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  padding: 2rem 2.2rem !important;
+}
