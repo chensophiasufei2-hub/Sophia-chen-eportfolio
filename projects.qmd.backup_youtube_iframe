@@ -7,7 +7,7 @@ format:
 
 # Projects
 
-This page presents three projects that reflect my interests in business analysis, marketing strategy, supply chain thinking, and process improvement. Together, they show how I approach business problems from both a strategic and operational perspective.
+This page presents two projects that reflect my interests in business analysis, customer-focused strategy, and process improvement. Together, they show how I approach business opportunities from both a strategic and operational perspective.
 
 ---
 
@@ -119,6 +119,10 @@ This experience helped me develop stronger analytical thinking, financial interp
 
 ---
 
+## Future Development
+
+As I continue developing this portfolio, I plan to extend the analytical side of my professional project further by adding examples of SQL queries, Python-based analysis, and supporting visualisations. This will allow me to present not only the business logic behind my work, but also the technical and analytical tools I am developing through my studies, which is important for aligning the portfolio with the assignment requirements.
+
 
 ## Project 3 — Building the Circular Supply Chain
 
@@ -132,19 +136,10 @@ This project presents a 3D circular supply chain model created to explain materi
 
 ### Video Presentation
 
-```{=html}
-<div class="project-video-wrap">
-  <iframe width="100%" height="420" src="https://www.youtube.com/embed/MJXuPIr6YG0" title="3D Circular Supply Chain Model" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-```
+[![3D Circular Supply Chain Model](https://img.youtube.com/vi/MJXuPIr6YG0/maxresdefault.jpg)](https://youtu.be/MJXuPIr6YG0?feature=shared)
 
 [Watch on YouTube](https://youtu.be/MJXuPIr6YG0?feature=shared)
 
 ### Reflection
 This project helped me understand circular supply chains in a more practical and visual way. By designing the model, I was able to connect theoretical concepts such as reverse flows, waste minimisation, and stakeholder coordination with a real operational structure. It also strengthened my ability to communicate supply chain ideas creatively and clearly through both design and presentation.
 pbpaste >> projects.qmd
-
-## Future Development
-
-As I continue developing this portfolio, I plan to extend the analytical side of my professional project further by adding examples of SQL queries, Python-based analysis, and supporting visualisations. This will allow me to present not only the business logic behind my work, but also the technical and analytical tools I am developing through my studies, which is important for aligning the portfolio with the assignment requirements.
-
