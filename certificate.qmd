@@ -1,0 +1,80 @@
+---
+title: "Certificate"
+format:
+  html:
+    toc: false
+---
+
+<style>
+.certificate-note {
+  max-width: 980px;
+  margin: 2rem auto 1.25rem auto;
+  padding: 1.6rem 1.8rem;
+  background: rgba(241,236,255,0.66);
+  border: 1px solid rgba(191,179,229,0.30);
+  border-radius: 28px;
+  box-shadow: 0 16px 32px rgba(118,110,170,0.08);
+}
+.certificate-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.2rem;
+  max-width: 980px;
+  margin: 0 auto 3rem auto;
+}
+.certificate-card {
+  background: rgba(255,255,255,0.82);
+  border: 1px solid rgba(191,179,229,0.25);
+  border-radius: 24px;
+  padding: 1.25rem;
+  box-shadow: 0 12px 24px rgba(118,110,170,0.08);
+}
+.certificate-card h3 {
+  margin-top: 0;
+  color: #605fa4;
+}
+.certificate-card p {
+  color: #4f526f;
+  line-height: 1.75;
+}
+.certificate-btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.7rem 1rem;
+  border-radius: 999px;
+  text-decoration: none;
+  background: linear-gradient(135deg, #7d74d9, #9a92eb);
+  color: white !important;
+  font-weight: 700;
+}
+@media (max-width: 900px) {
+  .certificate-grid { grid-template-columns: 1fr; }
+}
+</style>
+
+::: {.certificate-note}
+I continue to strengthen my professional knowledge and practical skills by completing online courses on Kubicle and LinkedIn Learning. These certificates reflect my commitment to continuous development in data analysis, digital tools, and professional communication.
+:::
+
+:::: {.certificate-grid}
+::: {.certificate-card}
+### Data Analysis with Excel
+A Kubicle certificate focused on using Excel for structured data analysis and business insight.
+
+[Open Certificate](images/Kubicle%20Diploma%20Data%20Analysis%20with%20Excel.pdf){.certificate-btn target="_blank"}
+:::
+
+::: {.certificate-card}
+### Data Preparation with SQL
+A Kubicle certificate focused on preparing, organising, and handling data through SQL for practical analysis work.
+
+[Open Certificate](images/Kubicle%20Diploma%20Data%20Preparation%20with%20SQL.pdf){.certificate-btn target="_blank"}
+:::
+
+::: {.certificate-card}
+### Presenting Data with Word
+A Kubicle certificate focused on communicating data clearly and professionally through written reporting.
+
+[Open Certificate](images/Kubicle%20Diploma%20Presenting%20Data%20with%20Word.pdf){.certificate-btn target="_blank"}
+:::
+::::

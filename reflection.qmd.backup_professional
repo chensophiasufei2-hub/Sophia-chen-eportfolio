@@ -1,0 +1,99 @@
+```{=html}
+<style>
+.reflection-page-wrap{
+  max-width: 980px;
+  margin: 2rem auto 3rem auto;
+  padding: 0 1rem;
+}
+.reflection-card{
+  background: rgba(241,236,255,0.68);
+  border: 1px solid rgba(191,179,229,0.32);
+  border-radius: 34px;
+  padding: 2rem 2.2rem;
+  box-shadow: 0 16px 32px rgba(118,110,170,0.08);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+.reflection-card h1{
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  line-height: 1.08;
+  font-weight: 800;
+  color: #35345a;
+}
+.reflection-card h2{
+  margin-top: 1.6rem;
+  margin-bottom: 0.7rem;
+  font-size: 1.55rem;
+  line-height: 1.25;
+  font-weight: 700;
+  color: #615fa6;
+}
+.reflection-card h3{
+  margin-top: 1.2rem;
+  margin-bottom: 0.6rem;
+  font-size: 1.2rem;
+  line-height: 1.3;
+  font-weight: 700;
+  color: #6b69ad;
+}
+.reflection-card p,
+.reflection-card li{
+  font-size: 1.02rem;
+  line-height: 1.9;
+  color: #4f526f;
+}
+@media (max-width: 980px){
+  .reflection-page-wrap{
+    margin: 1.2rem auto 2rem auto;
+  }
+  .reflection-card{
+    padding: 1.4rem 1.2rem;
+    border-radius: 24px;
+  }
+  .reflection-card h1{
+    font-size: 2.3rem;
+  }
+  .reflection-card h2{
+    font-size: 1.35rem;
+  }
+}
+</style>
+<div class=\"reflection-page-wrap\"><div class=\"reflection-card\">
+```\n\nReflection
+
+Developing this portfolio has helped me think more critically about how academic work can be presented in a professional, personal, and accessible way. Rather than simply listing modules or assignments, I needed to decide how each section should represent my strengths, interests, and future direction. This process made me reflect not only on the content of my work, but also on how design, structure, and presentation shape the impression a viewer receives.
+
+Through building this website, I became more aware of the connection between business analysis, communication, and digital presentation. My academic projects, particularly in enterprise development, process improvement, and supply chain thinking, showed me that strong ideas need to be supported by clear structure, evidence, and practical recommendation. Translating those ideas into a portfolio format encouraged me to present them more selectively and thoughtfully.
+
+What I learned from building the website
+
+One of the biggest lessons I learned was that creating a portfolio is very different from writing an academic report. In an assignment, the main goal is usually to answer a question clearly and meet assessment criteria. In a website, however, I also needed to consider user experience, layout, navigation, visual hierarchy, and consistency. I had to think about how visitors would move from one page to another, which sections should stand out first, and how to make the site feel personal without losing professionalism.
+
+I also learned how important visual communication is. Small design choices, such as spacing, background colour, card layout, button shape, and image placement, had a much bigger impact than I expected. A section could contain good content, but if the layout looked crowded or unbalanced, it immediately felt weaker. This helped me understand that presentation is not separate from communication — it is part of communication.
+
+Challenges I faced during the web-building process
+
+While building the portfolio, I encountered several practical problems. One major challenge was getting the layout to behave consistently across different pages. At many points, when I adjusted the homepage or projects page, the same style rules unexpectedly affected the about page or reflection page. This taught me that CSS needs to be written carefully and specifically, especially when multiple pages share a common design system.
+
+Another difficulty was editing files through the terminal. Because I was making many changes through command-based editing rather than directly working in a visual code editor, I often had to be very careful with formatting. Some commands were affected by quotation issues, long pasted content, or blocks being inserted incorrectly. When this happened, the site sometimes displayed raw code or broken formatting instead of the intended layout. This was frustrating, but it also made me more patient and more detail-oriented.
+
+I also faced challenges with GitHub deployment. There were moments when the local preview looked correct, but the online version did not update as expected. I had to understand the difference between local source files, the rendered output, and the deployed docs folder used by GitHub Pages. This helped me realise that publishing a website is not only about design; it also involves file structure, version control, deployment settings, and careful checking.
+
+Reflection on problem-solving
+
+Although the process was sometimes difficult, it improved my confidence in solving digital and technical problems. I had to test changes step by step, identify which file or style rule caused a problem, and then reverse or refine that change without damaging the rest of the website. This process felt similar to business problem-solving: first identify the issue, then test a focused solution, evaluate the result, and adjust where necessary.
+
+I also learned the value of persistence. At several points, it felt like a small design update created unexpected problems somewhere else in the site. Instead of giving up, I had to keep troubleshooting, checking structure, comparing versions, and improving the layout gradually. This experience reminded me that good outcomes often come from repeated refinement rather than one perfect attempt.
+
+Personal growth and future direction
+
+This portfolio process also encouraged me to think more seriously about my future development. I became more certain that I am interested in roles that combine analytical thinking with communication and presentation. Business analysis, marketing planning, and process improvement all require the ability to organise information clearly and present ideas in a way that others can understand and act on. Building this website gave me a chance to practise those skills in a different format.
+
+Looking ahead, I would like to continue improving both the content and technical quality of the site. I want to present future projects with even stronger visual storytelling, clearer structure, and more confident integration of multimedia elements such as images, videos, and interactive sections. I also hope to deepen my understanding of digital presentation tools, because I now see them as valuable professional skills rather than only technical details.
+
+Overall, creating this portfolio has been a meaningful learning experience. It has helped me reflect on my academic journey, recognise the importance of design and usability, and develop a stronger understanding of how content, creativity, and structure work together. More importantly, it has shown me that presenting my work well is not just about appearance — it is about clarity, intention, and the ability to communicate who I am and what I can contribute.
+```{=html}
+</div></div>
+```\n

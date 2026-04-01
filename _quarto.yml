@@ -14,6 +14,8 @@ website:
         text: About
       - href: projects.qmd
         text: Projects
+      - href: certificate.qmd
+        text: Certs
       - href: cv.qmd
         text: CV
       - href: reflection.qmd
