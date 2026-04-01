@@ -5459,3 +5459,1148 @@ body {
   scroll-padding-top: 92px !important;
 }
 \n
+
+
+
+/* ===== Deep blue business theme override ===== */
+body {
+  background:
+    linear-gradient(180deg, rgba(235,241,248,0.96), rgba(223,232,243,0.96)) !important;
+  color: #1f2d3d !important;
+}
+
+#quarto-header,
+.navbar,
+.navbar-expand-lg {
+  background: rgba(22, 43, 77, 0.94) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  box-shadow: 0 10px 24px rgba(16, 34, 61, 0.16) !important;
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-brand .menu-text,
+.navbar .nav-link,
+.navbar .nav-link .menu-text,
+.navbar-nav .nav-link,
+.navbar-nav .menu-text {
+  color: #ffffff !important;
+  font-weight: 700 !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover {
+  color: #d9e8ff !important;
+}
+
+body:has(#home-about) {
+  background:
+    linear-gradient(180deg, rgba(235,241,248,0.98), rgba(223,232,243,0.98)) !important;
+}
+
+body:has(#home-about) main.content::before {
+  background:
+    radial-gradient(circle at 18% 26%, rgba(66, 102, 150, 0.10), transparent 22%),
+    radial-gradient(circle at 82% 20%, rgba(107, 138, 179, 0.08), transparent 20%),
+    radial-gradient(circle at 50% 84%, rgba(27, 61, 105, 0.06), transparent 24%) !important;
+}
+
+#home-about .home-about-panel,
+.preview-entry-card,
+.home-feature-card,
+.home-contact-card,
+.connect-form,
+.guestbook-shell,
+#home-professional-intro > div,
+.reflection-hero,
+.reflection-card,
+.certificate-hero,
+.certificate-card {
+  background: rgba(255,255,255,0.78) !important;
+  border: 1px solid rgba(162, 180, 204, 0.34) !important;
+  box-shadow: 0 18px 34px rgba(28, 56, 92, 0.10) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+}
+
+#home-about .home-about-text h1,
+#home-about .home-about-text h2,
+.reflection-hero h1,
+.reflection-card h2,
+.certificate-hero h1,
+.certificate-card h3 {
+  color: #1f3654 !important;
+}
+
+#home-about .home-about-text p,
+.reflection-hero p,
+.reflection-card p,
+.certificate-hero p,
+.certificate-card p,
+#home-professional-intro p {
+  color: #42556d !important;
+}
+
+#home-about .home-about-image img {
+  box-shadow: 0 18px 36px rgba(28, 56, 92, 0.12) !important;
+}
+
+#home-about .home-pill,
+#home-connect .connect-btn,
+.preview-entry-link,
+.certificate-btn,
+button,
+.btn,
+.btn-primary {
+  background: linear-gradient(135deg, #193a63, #2d5b91) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255,255,255,0.18) !important;
+  box-shadow: 0 12px 24px rgba(27, 54, 91, 0.18) !important;
+}
+
+#home-about .home-pill:hover,
+#home-connect .connect-btn:hover,
+.preview-entry-link:hover,
+.certificate-btn:hover,
+button:hover,
+.btn:hover,
+.btn-primary:hover {
+  background: linear-gradient(135deg, #224874, #35689f) !important;
+  box-shadow: 0 16px 30px rgba(27, 54, 91, 0.22) !important;
+  transform: translateY(-2px) !important;
+}
+
+.home-side-nav a {
+  background: rgba(255,255,255,0.86) !important;
+  border: 1px solid rgba(170,186,208,0.34) !important;
+  color: #26476d !important;
+  box-shadow: 0 10px 22px rgba(28,56,92,0.08) !important;
+}
+
+.home-side-nav a.is-active {
+  background: linear-gradient(135deg, #193a63, #2d5b91) !important;
+  color: #ffffff !important;
+  box-shadow: 0 12px 24px rgba(27,54,91,0.18) !important;
+}
+
+.landing-card {
+  background: rgba(255,255,255,0.12) !important;
+  border: 1px solid rgba(210,225,244,0.24) !important;
+  box-shadow: 0 26px 60px rgba(11, 28, 53, 0.22) !important;
+}
+
+.landing-shell {
+  background:
+    radial-gradient(circle at 18% 18%, rgba(255,255,255,.18), transparent 24%),
+    radial-gradient(circle at 82% 22%, rgba(255,255,255,.10), transparent 24%),
+    radial-gradient(circle at 50% 82%, rgba(164,193,229,.12), transparent 34%),
+    linear-gradient(135deg, rgba(18, 40, 72, .74), rgba(43, 78, 122, .58)),
+    url("images/homepage.jpg") center/cover no-repeat !important;
+}
+
+.landing-kicker,
+.landing-note,
+.landing-subtitle,
+.type-line {
+  color: #ffffff !important;
+}
+
+.enter-home-btn {
+  background: linear-gradient(135deg, #17355c, #2b5a91) !important;
+  border: 1px solid rgba(255,255,255,.18) !important;
+  box-shadow:
+    0 0 10px rgba(255,255,255,.08),
+    0 0 22px rgba(72,118,174,.18),
+    0 16px 30px rgba(17,38,66,.22) !important;
+}
+
+.enter-home-btn:hover {
+  background: linear-gradient(135deg, #20456f, #35689f) !important;
+  box-shadow:
+    0 0 14px rgba(255,255,255,.12),
+    0 0 28px rgba(72,118,174,.22),
+    0 18px 34px rgba(17,38,66,.26) !important;
+}\n\n
+
+/* ===== Start home directly from main profile section ===== */
+body:has(#home-about) main.content {
+  padding-top: 0 !important;
+}
+
+body:has(#home-about) #home-about {
+  margin-top: .8rem !important;
+  padding-top: 0 !important;
+}
+
+body:has(#home-about) .home-about-panel {
+  margin-top: 0 !important;
+}
+
+body:has(#home-about) .column-page,
+body:has(#home-about) .page-columns,
+body:has(#home-about) .page-full {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+\n\n\n
+
+/* ===== Safely hide top intro blocks on home page ===== */
+body:has(#home-about) #home-professional-intro,
+body:has(#home-about) #home-welcome,
+body:has(#home-about) .portfolio-banner,
+body:has(#home-about) .portfolio-cover {
+  display: none !important;
+}
+
+/* remove extra top gap after hiding */
+body:has(#home-about) main.content {
+  padding-top: 0 !important;
+}
+body:has(#home-about) #home-about {
+  margin-top: .8rem !important;
+  padding-top: 0 !important;
+}
+
+/* ===== Beige / light blue business cards ===== */
+.preview-entry-card,
+.home-feature-card,
+.home-contact-card,
+.connect-form,
+.guestbook-shell,
+.reflection-hero,
+.reflection-card,
+.certificate-hero,
+.certificate-card,
+#home-about .home-about-panel {
+  background: rgba(248,246,240,0.90) !important;
+  border: 1px solid rgba(191, 201, 214, 0.34) !important;
+  box-shadow: 0 16px 30px rgba(42, 67, 96, 0.08) !important;
+}
+
+.home-side-nav a {
+  background: rgba(240,246,252,0.94) !important;
+}
+\n\n\n
+
+/* ===== Hide professional profile block safely ===== */
+#home-professional-intro {
+  display: none !important;
+}
+
+body:has(#home-about) main.content {
+  padding-top: 0 !important;
+}
+
+body:has(#home-about) #home-about {
+  margin-top: .8rem !important;
+  padding-top: 0 !important;
+}
+\n\n\n
+
+/* ===== Strong hide duplicated top profile card ===== */
+body:has(#home-about) main.content > section:first-of-type,
+body:has(#home-about) main.content > div:first-of-type,
+body:has(#home-about) section:has(#home-professional-intro),
+body:has(#home-about) #home-professional-intro,
+body:has(#home-about) *:has(> p[style*="Professional Profile"]) {
+  display: none !important;
+}
+
+/* tighten top spacing after hiding */
+body:has(#home-about) main.content {
+  padding-top: 0 !important;
+}
+
+body:has(#home-about) #home-about {
+  margin-top: .6rem !important;
+  padding-top: 0 !important;
+}
+\n
+
+
+
+/* ===== Unified professional blue-beige theme ===== */
+:root {
+  --site-bg: #eef3f8;
+  --site-bg-soft: #e6edf5;
+  --card-bg: rgba(248, 246, 240, 0.92);
+  --card-border: rgba(185, 198, 214, 0.38);
+  --nav-bg: rgba(22, 52, 88, 0.96);
+  --nav-text: #ffffff;
+  --title-color: #24364a;
+  --text-color: #5c6b7a;
+  --accent: #163458;
+  --accent-2: #2e5b8f;
+  --accent-soft: #dfeaf5;
+}
+
+/* global background */
+body {
+  background: linear-gradient(180deg, var(--site-bg), var(--site-bg-soft)) !important;
+  color: var(--text-color) !important;
+}
+
+/* top navbar */
+#quarto-header,
+.navbar,
+.navbar-expand-lg {
+  background: var(--nav-bg) !important;
+  box-shadow: 0 10px 24px rgba(17, 39, 67, 0.18) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-brand .menu-text,
+.navbar .nav-link,
+.navbar .nav-link .menu-text,
+.navbar-nav .nav-link,
+.navbar-nav .menu-text {
+  color: var(--nav-text) !important;
+  font-weight: 700 !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover {
+  color: #d9e8ff !important;
+}
+
+/* page soft background texture */
+body:has(#home-about) main.content::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background:
+    radial-gradient(circle at 18% 22%, rgba(70, 107, 153, 0.08), transparent 22%),
+    radial-gradient(circle at 82% 20%, rgba(122, 151, 186, 0.06), transparent 20%),
+    radial-gradient(circle at 50% 86%, rgba(29, 67, 112, 0.05), transparent 24%);
+}
+
+/* main content above texture */
+main.content,
+.page-columns,
+.page-full,
+.column-page {
+  position: relative;
+  z-index: 1;
+}
+
+/* all major cards */
+.preview-entry-card,
+.home-feature-card,
+.home-contact-card,
+.connect-form,
+.guestbook-shell,
+.reflection-hero,
+.reflection-card,
+.certificate-hero,
+.certificate-card,
+#home-about .home-about-panel {
+  background: var(--card-bg) !important;
+  border: 1px solid var(--card-border) !important;
+  box-shadow: 0 16px 30px rgba(31, 58, 91, 0.09) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+}
+
+/* headings */
+h1, h2, h3, h4, h5, h6,
+#home-about .home-about-text h1,
+#home-about .home-about-text h2,
+.reflection-hero h1,
+.reflection-card h2,
+.certificate-hero h1,
+.certificate-card h3 {
+  color: var(--title-color) !important;
+}
+
+/* paragraphs and secondary text */
+p,
+li,
+span,
+#home-about .home-about-text p,
+.reflection-hero p,
+.reflection-card p,
+.certificate-hero p,
+.certificate-card p,
+#home-professional-intro p {
+  color: var(--text-color) !important;
+}
+
+/* profile image */
+#home-about .home-about-image img {
+  box-shadow: 0 18px 36px rgba(31, 58, 91, 0.12) !important;
+  border-radius: 24px !important;
+}
+
+/* buttons */
+#home-about .home-pill,
+#home-connect .connect-btn,
+.preview-entry-link,
+.certificate-btn,
+button,
+.btn,
+.btn-primary,
+.enter-home-btn {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2)) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255,255,255,0.16) !important;
+  box-shadow: 0 12px 24px rgba(24, 52, 88, 0.18) !important;
+}
+
+#home-about .home-pill:hover,
+#home-connect .connect-btn:hover,
+.preview-entry-link:hover,
+.certificate-btn:hover,
+button:hover,
+.btn:hover,
+.btn-primary:hover,
+.enter-home-btn:hover {
+  background: linear-gradient(135deg, #20466f, #396ca3) !important;
+  box-shadow: 0 16px 30px rgba(24, 52, 88, 0.24) !important;
+  transform: translateY(-2px) !important;
+}
+
+/* inputs */
+input,
+textarea,
+select {
+  background: rgba(255,255,255,0.88) !important;
+  border: 1px solid rgba(177, 192, 210, 0.48) !important;
+  color: var(--title-color) !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #7a8794 !important;
+}
+
+/* side nav */
+.home-side-nav a {
+  background: rgba(240, 246, 252, 0.96) !important;
+  border: 1px solid rgba(176, 191, 210, 0.34) !important;
+  color: var(--accent) !important;
+  box-shadow: 0 10px 22px rgba(31, 58, 91, 0.08) !important;
+}
+
+.home-side-nav a.is-active {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2)) !important;
+  color: #ffffff !important;
+  box-shadow: 0 12px 24px rgba(24, 52, 88, 0.18) !important;
+}
+
+/* guestbook specific */
+.guestbook-shell {
+  background: rgba(247, 245, 239, 0.94) !important;
+}
+
+.guestbook-shell h2,
+.guestbook-shell h3,
+.guestbook-shell strong {
+  color: var(--title-color) !important;
+}
+
+.guestbook-shell .message-card,
+.guestbook-shell .guestbook-bubble {
+  background: rgba(255,255,255,0.82) !important;
+  border: 1px solid rgba(185,198,214,0.28) !important;
+}
+
+/* reflection / certificate softer accent areas */
+.reflection-hero,
+.certificate-hero {
+  background: linear-gradient(180deg, rgba(248,246,240,0.94), rgba(240,246,252,0.88)) !important;
+}
+
+/* landing page */
+.landing-shell {
+  background:
+    radial-gradient(circle at 18% 18%, rgba(255,255,255,.18), transparent 24%),
+    radial-gradient(circle at 82% 22%, rgba(255,255,255,.10), transparent 24%),
+    radial-gradient(circle at 50% 82%, rgba(165,193,225,.12), transparent 34%),
+    linear-gradient(135deg, rgba(19, 45, 78, .72), rgba(45, 86, 134, .56)),
+    url("images/homepage.jpg") center/cover no-repeat !important;
+}
+
+.landing-card {
+  background: rgba(255,255,255,0.12) !important;
+  border: 1px solid rgba(215,228,244,0.22) !important;
+  box-shadow: 0 26px 60px rgba(12, 30, 54, 0.22) !important;
+}
+
+.landing-kicker,
+.landing-note,
+.landing-subtitle,
+.type-line {
+  color: #ffffff !important;
+}
+
+/* card radius consistency */
+.preview-entry-card,
+.home-feature-card,
+.home-contact-card,
+.connect-form,
+.guestbook-shell,
+.reflection-hero,
+.reflection-card,
+.certificate-hero,
+.certificate-card,
+#home-about .home-about-panel,
+.landing-card {
+  border-radius: 28px !important;
+}\n\n
+
+/* ===== Remove remaining purple accents ===== */
+.guestbook-shell,
+.guestbook-shell * {
+  --tw-shadow-color: rgba(31, 58, 91, 0.10) !important;
+}
+
+.guestbook-shell .message-card,
+.guestbook-shell .guestbook-bubble,
+.guestbook-shell .guestbook-message,
+.guestbook-shell .chat-bubble,
+.guestbook-shell .guest-entry,
+.guestbook-shell .message,
+.guestbook-shell .note-card {
+  background: rgba(245, 247, 250, 0.96) !important;
+  border: 1px solid rgba(188, 201, 214, 0.34) !important;
+  color: #24364a !important;
+  box-shadow: 0 10px 22px rgba(31, 58, 91, 0.08) !important;
+}
+
+.guestbook-shell h2,
+.guestbook-shell h3,
+.guestbook-shell strong,
+.guestbook-shell b,
+.guestbook-shell .name {
+  color: #24364a !important;
+}
+
+.guestbook-shell p,
+.guestbook-shell span,
+.guestbook-shell label,
+.guestbook-shell small,
+.guestbook-shell .message-text {
+  color: #5c6b7a !important;
+}
+
+.guestbook-shell input,
+.guestbook-shell textarea {
+  background: rgba(255,255,255,0.94) !important;
+  border: 1px solid rgba(185,198,214,0.42) !important;
+  color: #24364a !important;
+}
+
+.guestbook-shell input::placeholder,
+.guestbook-shell textarea::placeholder {
+  color: #7d8996 !important;
+}
+
+/* remove lilac fills in feature / explore cards */
+.preview-entry-card,
+.home-feature-card,
+.home-contact-card,
+.connect-form,
+.reflection-card,
+.certificate-card {
+  background: rgba(248,246,240,0.92) !important;
+}
+
+.preview-entry-card *,
+.home-feature-card *,
+.home-contact-card *,
+.connect-form * {
+  border-color: rgba(188, 201, 214, 0.30) !important;
+}
+
+/* icons / pastel highlights */
+.home-feature-card .icon-wrap,
+.preview-entry-card .icon-wrap,
+.home-contact-card .icon-wrap,
+.guestbook-shell .icon-wrap,
+.home-feature-card [class*="icon"],
+.preview-entry-card [class*="icon"],
+.home-contact-card [class*="icon"] {
+  background: rgba(230, 239, 248, 0.92) !important;
+  color: #2e5b8f !important;
+}
+
+/* neutralize lavender badges / tags */
+.home-pill,
+.tag,
+.badge,
+.chip,
+.label-soft,
+.soft-highlight {
+  background: rgba(230, 239, 248, 0.92) !important;
+  color: #24456d !important;
+  border: 1px solid rgba(176,191,210,0.34) !important;
+  box-shadow: none !important;
+}
+
+/* any purple gradient leftovers in cards */
+[style*="rgb(243,236,255)"],
+[style*="rgba(243,236,255"],
+[style*="rgb(241,236,255)"],
+[style*="rgba(241,236,255"],
+[style*="#7d74d9"],
+[style*="#9a92eb"] {
+  background: rgba(248,246,240,0.92) !important;
+  color: #24364a !important;
+}
+
+/* links remain professional blue */
+a {
+  color: #1f4f82;
+}
+
+a:hover {
+  color: #2e5b8f;
+}
+\n\n\n
+
+/* ===== Navy navbar + light blue cards ===== */
+:root {
+  --navy: #163458;
+  --navy-2: #234b78;
+  --light-blue-card: rgba(236, 243, 250, 0.94);
+  --light-blue-card-2: rgba(229, 238, 248, 0.94);
+  --card-border: rgba(176, 191, 210, 0.34);
+  --title-color: #24364a;
+  --text-color: #5c6b7a;
+}
+
+/* navbar deep blue */
+#quarto-header,
+.navbar,
+.navbar-expand-lg {
+  background: var(--navy) !important;
+  box-shadow: 0 10px 24px rgba(17, 39, 67, 0.18) !important;
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-brand .menu-text,
+.navbar .nav-link,
+.navbar .nav-link .menu-text,
+.navbar-nav .nav-link,
+.navbar-nav .menu-text {
+  color: #ffffff !important;
+  font-weight: 700 !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover {
+  color: #dbe9f8 !important;
+}
+
+/* all major cards light blue */
+.preview-entry-card,
+.home-feature-card,
+.home-contact-card,
+.connect-form,
+.guestbook-shell,
+.reflection-hero,
+.reflection-card,
+.certificate-hero,
+.certificate-card,
+#home-about .home-about-panel,
+.guestbook-shell .message-card,
+.guestbook-shell .guestbook-bubble,
+.guestbook-shell .guestbook-message,
+.guestbook-shell .chat-bubble,
+.guestbook-shell .guest-entry,
+.guestbook-shell .message,
+.guestbook-shell .note-card {
+  background: var(--light-blue-card) !important;
+  border: 1px solid var(--card-border) !important;
+  box-shadow: 0 16px 30px rgba(31, 58, 91, 0.08) !important;
+  color: var(--text-color) !important;
+}
+
+/* softer hero cards */
+.reflection-hero,
+.certificate-hero,
+#home-about .home-about-panel {
+  background: linear-gradient(180deg, rgba(239,245,251,0.96), rgba(231,239,248,0.94)) !important;
+}
+
+/* headings */
+h1, h2, h3, h4, h5, h6,
+#home-about .home-about-text h1,
+#home-about .home-about-text h2,
+.reflection-hero h1,
+.reflection-card h2,
+.certificate-hero h1,
+.certificate-card h3,
+.guestbook-shell h2,
+.guestbook-shell h3,
+.guestbook-shell strong,
+.guestbook-shell b {
+  color: var(--title-color) !important;
+}
+
+/* paragraphs */
+p,
+li,
+span,
+label,
+small,
+#home-about .home-about-text p,
+.reflection-hero p,
+.reflection-card p,
+.certificate-hero p,
+.certificate-card p,
+.guestbook-shell p,
+.guestbook-shell span,
+.guestbook-shell .message-text {
+  color: var(--text-color) !important;
+}
+
+/* inputs */
+input,
+textarea,
+select,
+.guestbook-shell input,
+.guestbook-shell textarea {
+  background: rgba(255,255,255,0.96) !important;
+  border: 1px solid rgba(176, 191, 210, 0.42) !important;
+  color: var(--title-color) !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #7b8794 !important;
+}
+
+/* buttons keep navy */
+#home-about .home-pill,
+#home-connect .connect-btn,
+.preview-entry-link,
+.certificate-btn,
+button,
+.btn,
+.btn-primary,
+.enter-home-btn {
+  background: linear-gradient(135deg, var(--navy), var(--navy-2)) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255,255,255,0.16) !important;
+  box-shadow: 0 12px 24px rgba(24, 52, 88, 0.16) !important;
+}
+
+#home-about .home-pill:hover,
+#home-connect .connect-btn:hover,
+.preview-entry-link:hover,
+.certificate-btn:hover,
+button:hover,
+.btn:hover,
+.btn-primary:hover,
+.enter-home-btn:hover {
+  background: linear-gradient(135deg, #20466f, #396ca3) !important;
+  box-shadow: 0 16px 30px rgba(24, 52, 88, 0.22) !important;
+  transform: translateY(-2px) !important;
+}
+
+/* side nav */
+.home-side-nav a {
+  background: rgba(236,243,250,0.96) !important;
+  border: 1px solid rgba(176,191,210,0.34) !important;
+  color: var(--navy) !important;
+  box-shadow: 0 10px 22px rgba(31,58,91,0.08) !important;
+}
+
+.home-side-nav a.is-active {
+  background: linear-gradient(135deg, var(--navy), var(--navy-2)) !important;
+  color: #ffffff !important;
+}
+
+/* icon backgrounds */
+.icon-wrap,
+[class*="icon-wrap"] {
+  background: rgba(220,233,246,0.92) !important;
+  color: var(--navy-2) !important;
+}
+
+/* landing page remains business blue */
+.landing-shell {
+  background:
+    radial-gradient(circle at 18% 18%, rgba(255,255,255,.16), transparent 24%),
+    radial-gradient(circle at 82% 22%, rgba(255,255,255,.10), transparent 24%),
+    radial-gradient(circle at 50% 82%, rgba(165,193,225,.12), transparent 34%),
+    linear-gradient(135deg, rgba(19, 45, 78, .72), rgba(45, 86, 134, .56)),
+    url("images/homepage.jpg") center/cover no-repeat !important;
+}
+
+.landing-card {
+  background: rgba(236,243,250,0.16) !important;
+  border: 1px solid rgba(215,228,244,0.22) !important;
+}
+
+/* remove purple leftovers strongly */
+[style*="243,236,255"],
+[style*="241,236,255"],
+[style*="#7d74d9"],
+[style*="#9a92eb"] {
+  background: var(--light-blue-card) !important;
+  color: var(--title-color) !important;
+}
+\n\n\n
+
+/* ===== STRONG unified navy + light blue theme ===== */
+:root{
+  --navy:#163458;
+  --navy-2:#234b78;
+  --text-main:#24364a;
+  --text-body:#5c6b7a;
+  --card-blue:rgba(236,243,250,0.95);
+  --card-blue-2:rgba(230,239,248,0.95);
+  --card-border:rgba(176,191,210,0.38);
+  --bg-page:#eef3f8;
+  --bg-page-2:#e7eef6;
+}
+
+/* page background */
+html, body {
+  background: linear-gradient(180deg, var(--bg-page), var(--bg-page-2)) !important;
+  color: var(--text-body) !important;
+}
+
+/* ===== NAVBAR: force deep navy everywhere ===== */
+#quarto-header,
+#quarto-header .navbar,
+.navbar,
+.navbar-expand-lg,
+.navbar.navbar-expand-lg,
+.headroom,
+.headroom--pinned,
+.headroom--unpinned {
+  background: var(--navy) !important;
+  background-color: var(--navy) !important;
+  background-image: none !important;
+  box-shadow: 0 10px 24px rgba(17,39,67,0.18) !important;
+  border: none !important;
+}
+
+#quarto-header *,
+.navbar *,
+.navbar-brand,
+.navbar-brand .menu-text,
+.navbar-nav .nav-link,
+.navbar-nav .nav-link .menu-text,
+.navbar .nav-link,
+.navbar .nav-link .menu-text,
+.navbar .navbar-title,
+.navbar .title,
+.menu-text {
+  color: #ffffff !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover,
+.navbar .nav-link:focus {
+  color: #dbe9f8 !important;
+}
+
+.navbar-toggler,
+.navbar-toggler-icon {
+  border-color: rgba(255,255,255,0.35) !important;
+}
+
+/* ===== page containers ===== */
+main.content,
+.page-columns,
+.page-full,
+.column-page,
+.quarto-container,
+#quarto-content {
+  background: transparent !important;
+  color: var(--text-body) !important;
+}
+
+/* ===== all major cards unified light blue ===== */
+.preview-entry-card,
+.home-feature-card,
+.home-contact-card,
+.connect-form,
+.guestbook-shell,
+.reflection-hero,
+.reflection-card,
+.certificate-hero,
+.certificate-card,
+#home-about .home-about-panel,
+#home-about .home-about-text,
+#home-about .home-about-image,
+.panel,
+.card,
+.card-body,
+.callout,
+.callout-note,
+.callout-tip,
+.callout-important,
+div[style*="background:rgba(255,255,255"],
+div[style*="background: rgba(255,255,255"] {
+  background: var(--card-blue) !important;
+  background-color: var(--card-blue) !important;
+  background-image: none !important;
+  border: 1px solid var(--card-border) !important;
+  box-shadow: 0 16px 30px rgba(31,58,91,0.08) !important;
+  color: var(--text-body) !important;
+}
+
+/* slightly softer hero sections */
+.reflection-hero,
+.certificate-hero,
+#home-about .home-about-panel {
+  background: linear-gradient(180deg, var(--card-blue), var(--card-blue-2)) !important;
+}
+
+/* guestbook inner cards */
+.guestbook-shell .message-card,
+.guestbook-shell .guestbook-bubble,
+.guestbook-shell .guestbook-message,
+.guestbook-shell .chat-bubble,
+.guestbook-shell .guest-entry,
+.guestbook-shell .message,
+.guestbook-shell .note-card {
+  background: rgba(245,249,253,0.97) !important;
+  border: 1px solid rgba(185,198,214,0.34) !important;
+  box-shadow: 0 10px 22px rgba(31,58,91,0.08) !important;
+}
+
+/* headings */
+h1,h2,h3,h4,h5,h6,
+.title,
+.quarto-title,
+#home-about .home-about-text h1,
+#home-about .home-about-text h2,
+.reflection-hero h1,
+.reflection-card h2,
+.certificate-hero h1,
+.certificate-card h3,
+.guestbook-shell h2,
+.guestbook-shell h3,
+.guestbook-shell strong,
+.guestbook-shell b {
+  color: var(--text-main) !important;
+}
+
+/* body text */
+p, li, span, label, small,
+#home-about .home-about-text p,
+.reflection-hero p,
+.reflection-card p,
+.certificate-hero p,
+.certificate-card p,
+.guestbook-shell p,
+.guestbook-shell span,
+.guestbook-shell .message-text {
+  color: var(--text-body) !important;
+}
+
+/* links */
+a { color: #1f4f82 !important; }
+a:hover { color: #2e5b8f !important; }
+
+/* buttons */
+button,
+.btn,
+.btn-primary,
+.certificate-btn,
+.preview-entry-link,
+#home-about .home-pill,
+#home-connect .connect-btn,
+.enter-home-btn {
+  background: linear-gradient(135deg, var(--navy), var(--navy-2)) !important;
+  background-color: var(--navy) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255,255,255,0.16) !important;
+  box-shadow: 0 12px 24px rgba(24,52,88,0.16) !important;
+}
+
+button:hover,
+.btn:hover,
+.btn-primary:hover,
+.certificate-btn:hover,
+.preview-entry-link:hover,
+#home-about .home-pill:hover,
+#home-connect .connect-btn:hover,
+.enter-home-btn:hover {
+  background: linear-gradient(135deg, #20466f, #396ca3) !important;
+  color: #ffffff !important;
+  box-shadow: 0 16px 30px rgba(24,52,88,0.22) !important;
+}
+
+/* inputs */
+input, textarea, select {
+  background: rgba(255,255,255,0.96) !important;
+  border: 1px solid rgba(176,191,210,0.42) !important;
+  color: var(--text-main) !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #7b8794 !important;
+}
+
+/* side nav */
+.home-side-nav a {
+  background: rgba(236,243,250,0.96) !important;
+  border: 1px solid rgba(176,191,210,0.34) !important;
+  color: var(--navy) !important;
+  box-shadow: 0 10px 22px rgba(31,58,91,0.08) !important;
+}
+
+.home-side-nav a.is-active {
+  background: linear-gradient(135deg, var(--navy), var(--navy-2)) !important;
+  color: #ffffff !important;
+}
+
+/* icon backgrounds */
+.icon-wrap,
+[class*="icon-wrap"],
+[class*="icon-box"] {
+  background: rgba(220,233,246,0.92) !important;
+  color: var(--navy-2) !important;
+}
+
+/* landing page */
+.landing-shell {
+  background:
+    radial-gradient(circle at 18% 18%, rgba(255,255,255,.16), transparent 24%),
+    radial-gradient(circle at 82% 22%, rgba(255,255,255,.10), transparent 24%),
+    radial-gradient(circle at 50% 82%, rgba(165,193,225,.12), transparent 34%),
+    linear-gradient(135deg, rgba(19,45,78,.72), rgba(45,86,134,.56)),
+    url("images/homepage.jpg") center/cover no-repeat !important;
+}
+
+.landing-card {
+  background: rgba(236,243,250,0.14) !important;
+  border: 1px solid rgba(215,228,244,0.22) !important;
+}
+
+.landing-kicker,
+.landing-note,
+.landing-subtitle,
+.type-line {
+  color: #ffffff !important;
+}
+
+/* kill leftover purple */
+[style*="243,236,255"],
+[style*="241,236,255"],
+[style*="#7d74d9"],
+[style*="#9a92eb"],
+[style*="rgba(243,236,255"],
+[style*="rgba(241,236,255"] {
+  background: var(--card-blue) !important;
+  color: var(--text-main) !important;
+}
+\n
+
+
+
+/* ===== Business guestbook + card color refinement ===== */
+.preview-entry-card,
+.home-feature-card,
+.home-contact-card,
+.connect-form,
+.reflection-hero,
+.reflection-card,
+.certificate-hero,
+.certificate-card,
+#home-about .home-about-panel {
+  background: rgba(233, 241, 249, 0.96) !important;
+  border: 1px solid rgba(174, 190, 210, 0.42) !important;
+  box-shadow: 0 16px 30px rgba(31, 58, 91, 0.08) !important;
+}
+
+.guestbook-shell {
+  background: rgba(229, 238, 248, 0.97) !important;
+  border: 1px solid rgba(170, 187, 207, 0.42) !important;
+  box-shadow: 0 18px 34px rgba(31, 58, 91, 0.10) !important;
+}
+
+.guestbook-shell .message-card,
+.guestbook-shell .guestbook-bubble,
+.guestbook-shell .guestbook-message,
+.guestbook-shell .chat-bubble,
+.guestbook-shell .guest-entry,
+.guestbook-shell .message,
+.guestbook-shell .note-card {
+  background: rgba(248, 251, 254, 0.98) !important;
+  border: 1px solid rgba(181, 197, 216, 0.42) !important;
+  box-shadow: 0 10px 22px rgba(31, 58, 91, 0.08) !important;
+  color: #42556d !important;
+}
+
+.guestbook-shell h1,
+.guestbook-shell h2,
+.guestbook-shell h3,
+.guestbook-shell strong,
+.guestbook-shell b {
+  color: #24364a !important;
+}
+
+.guestbook-shell p,
+.guestbook-shell span,
+.guestbook-shell label,
+.guestbook-shell small,
+.guestbook-shell li,
+.guestbook-shell .message-text {
+  color: #5c6b7a !important;
+}
+
+.guestbook-shell input,
+.guestbook-shell textarea,
+.guestbook-shell select {
+  background: rgba(255,255,255,0.98) !important;
+  border: 1px solid rgba(176,191,210,0.46) !important;
+  color: #24364a !important;
+}
+
+.guestbook-shell input::placeholder,
+.guestbook-shell textarea::placeholder {
+  color: #7b8794 !important;
+}
+
+.guestbook-shell .connect-btn,
+.guestbook-shell button,
+.guestbook-shell .btn {
+  background: linear-gradient(135deg, #163458, #234b78) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255,255,255,0.16) !important;
+}
+
+.guestbook-shell .connect-btn:hover,
+.guestbook-shell button:hover,
+.guestbook-shell .btn:hover {
+  background: linear-gradient(135deg, #20466f, #396ca3) !important;
+}
+
+.business-exchange-card {
+  background: linear-gradient(180deg, rgba(236,243,250,0.98), rgba(229,238,248,0.96)) !important;
+  border: 1px solid rgba(176,191,210,0.40) !important;
+  border-radius: 24px !important;
+  padding: 1.5rem 1.4rem !important;
+  box-shadow: 0 14px 28px rgba(31, 58, 91, 0.08) !important;
+  margin: 0 auto 1.2rem auto !important;
+}
+
+.business-exchange-card h2 {
+  color: #24364a !important;
+  margin: 0 0 0.7rem 0 !important;
+}
+
+.business-exchange-card p,
+.business-exchange-card li {
+  color: #5c6b7a !important;
+  line-height: 1.85 !important;
+}
+
+.business-exchange-card a {
+  color: #1f4f82 !important;
+  font-weight: 700 !important;
+}
+

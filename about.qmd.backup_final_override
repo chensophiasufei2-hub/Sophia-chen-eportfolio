@@ -1,0 +1,109 @@
+---
+title: "About"
+format:
+  html:
+    toc: false
+---
+
+# About Me
+
+![](images/about-photo.jpg){.about-inline-photo}
+
+A final-year Business Studies student with a growing passion for business analysis, marketing planning, and process improvement.
+
+I am currently studying Business Studies at Dublin City University and building practical experience through academic projects, internship exposure, and ACCA learning. I enjoy structured thinking, solving real business problems, and connecting analysis with meaningful decisions.
+
+My interests lie in business insight, operational efficiency, customer-focused strategy, and graduate opportunities where I can continue to grow both professionally and personally.
+
+## My Journey
+
+### 🎓 Academic Development
+Studying Business Studies at Dublin City University, with particular interest in business analytics, marketing strategy, and organisational improvement.
+
+### 💼 Practical Experience
+Gaining real-world exposure through accounting internship experience, including finance support, documentation, and operational understanding.
+
+### 📘 Professional Growth
+Strengthening my accounting and finance knowledge through ACCA studies while building a clearer direction toward business-focused graduate roles.
+
+## Core Skills
+
+| Skill Area | Focus |
+|---|---|
+| 📊 Business Analysis | Structured analysis, insight, and decision support |
+| 📈 Marketing Planning | Customer-focused thinking and practical strategy |
+| 💰 Accounting Support | Finance exposure and operational documentation |
+| ⚙️ Process Improvement | Efficiency, workflow, and better business outcomes |
+| 🧠 Problem-Solving | Logical thinking and clear approaches to challenges |
+| 🌍 Communication | Written, spoken, and interpersonal communication |
+| 🤝 Teamwork | Collaboration and adaptability |
+| 🌐 Chinese & English | Bilingual communication ability |
+
+## Global Footprint
+
+### Lived / Studied
+::: {.flag-row}
+🇨🇳
+🇮🇪
+:::
+
+### Explored / Recorded
+::: {.flag-row}
+🇬🇧
+🇮🇹
+🇪🇸
+🇪🇪
+🇫🇮
+🇨🇳
+🇮🇪
+:::
+
+## Behind the CV
+
+A more personal side of my journey — the places I live in, the moments I record, the people I treasure, and the lifestyle that keeps me balanced.
+
+::: {.behind-grid}
+
+::: {.behind-card}
+[![](images/dublin-life-1.jpg){.behind-card-img}](dublin-life.html)
+
+### Dublin Life
+Study, city walks, and everyday life in Ireland.
+:::
+
+::: {.behind-card}
+[![](images/scenery-1.jpg){.behind-card-img}](scenery.html)
+
+### Record the Scenery
+Capturing light, streets, skies, and quiet moments.
+:::
+
+::: {.behind-card}
+[![](images/travel-2.jpg){.behind-card-img}](travel.html)
+
+### Travel
+New cities, new cultures, and new perspectives.
+:::
+
+::: {.behind-card}
+[![](images/gym-1.jpg){.behind-card-img}](gym.html)
+
+### Gym & Pilates
+Discipline, balance, and energy beyond academics.
+:::
+
+::: {.behind-card}
+[![](images/friends-1.jpg){.behind-card-img}](friends.html)
+
+### Friends
+Shared memories, connection, and meaningful moments.
+:::
+
+::: {.behind-card}
+[![](images/food-1.jpg){.behind-card-img}](food.html)
+
+### Food
+Coffee, cafés, comfort meals, and little moments of joy.
+:::
+
+:::

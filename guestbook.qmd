@@ -1,3 +1,22 @@
+
+```{=html}
+<section class="business-exchange-card">
+  <h2>Professional Contact & Academic Exchange</h2>
+  <p>
+    This space welcomes professional messages, academic交流, portfolio feedback, and opportunities for collaboration.
+    You may use it to connect regarding business studies, analytics, marketing, process improvement, or broader academic discussion.
+  </p>
+  <ul>
+    <li>LinkedIn networking and professional introductions</li>
+    <li>Academic discussion, project exchange, and feedback</li>
+    <li>Internship, graduate role, or collaboration enquiries</li>
+  </ul>
+  <p>
+    You can also connect via LinkedIn: <a href="https://www.linkedin.com/" target="_blank">Add your LinkedIn link here</a>
+  </p>
+</section>
+```
+
 cd ~/Desktop/Sophia-chen-eportfolio
 cp guestbook.qmd guestbook.qmd.backup 2>/dev/null || true
 pbpaste > guestbook.qmd

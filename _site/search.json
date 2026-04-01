@@ -25,7 +25,7 @@
     "href": "index.html",
     "title": "Welcome",
     "section": "",
-    "text": "Sophia Sufei Chen\n    Welcome to My Portfolio\n    A curated portfolio of academic work, creative reflection, and professional growth.\n    Enter Portfolio →\n    Dormint light motion."
+    "text": "Sophia Sufei Chen\n    Professional ePortfolio\n    A professional ePortfolio presenting academic projects, technical skills, reflective learning, and career development.\n    Enter ePortfolio →\n    Business Studies | Analytics | Marketing | Process Improvement"
   },
   {
     "objectID": "projects.html",
@@ -102,7 +102,7 @@
     "href": "guestbook.html",
     "title": "Sophia Sufei Chen",
     "section": "",
-    "text": "cd ~/Desktop/Sophia-chen-eportfolio cp guestbook.qmd guestbook.qmd.backup 2&gt;/dev/null || true pbpaste &gt; guestbook.qmd quarto render guestbook.qmd quarto preview"
+    "text": "Professional Contact & Academic Exchange\n  \n    This space welcomes professional messages, academic交流, portfolio feedback, and opportunities for collaboration.\n    You may use it to connect regarding business studies, analytics, marketing, process improvement, or broader academic discussion.\n  \n  \n    LinkedIn networking and professional introductions\n    Academic discussion, project exchange, and feedback\n    Internship, graduate role, or collaboration enquiries\n  \n  \n    You can also connect via LinkedIn: Add your LinkedIn link here\n  \n\ncd ~/Desktop/Sophia-chen-eportfolio cp guestbook.qmd guestbook.qmd.backup 2&gt;/dev/null || true pbpaste &gt; guestbook.qmd quarto render guestbook.qmd quarto preview"
   },
   {
     "objectID": "reflection.html",
@@ -193,7 +193,7 @@
     "href": "home.html",
     "title": "Home",
     "section": "",
-    "text": "Welcome\n  About\n  Explore\n  Highlights\n  Connect"
+    "text": "Professional Profile\n    \n    \n      Final-year Business Studies student with developing strengths in business analytics, marketing strategy, process improvement, and professional communication.\n    \n    \n      This ePortfolio presents academic projects, technical learning, reflective development, certifications, and evidence of continued professional growth."
   },
   {
     "objectID": "home.html#welcome-to-my-portfolio",
