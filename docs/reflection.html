@@ -75,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -105,6 +105,10 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./certificate.html"> 
+<span class="menu-text">Certs</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./cv.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
@@ -123,15 +127,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#reflection" id="toc-reflection" class="nav-link active" data-scroll-target="#reflection">Reflection</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -154,14 +150,162 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="reflection" class="level1">
-<h1>Reflection</h1>
-<p>Developing this portfolio has helped me think more critically about how academic work can be presented in a professional and accessible way. Rather than simply listing modules or assignments, I have had to reflect on what each experience says about my strengths, interests, and future direction.</p>
-<p>Through building this portfolio, I have become more aware of the connection between business analysis, communication, and digital presentation. My academic projects, particularly in enterprise development and process improvement, showed me that strong ideas need to be supported by clear structure, evidence, and practical recommendations.</p>
-<p>This process also encouraged me to think more carefully about my career direction. I am especially interested in roles that combine analytical thinking with business decision-making, including business analysis, marketing planning, and process improvement.</p>
+<style>
+.reflection-hero-wrap{
+  max-width: 1040px;
+  margin: 2rem auto 1.2rem auto;
+  padding: 0 1rem;
+}
+.reflection-hero{
+  background: linear-gradient(135deg, rgba(243,236,255,0.95), rgba(235,243,255,0.88));
+  border: 1px solid rgba(190,178,230,0.34);
+  border-radius: 34px;
+  padding: 2.2rem 2.4rem;
+  box-shadow: 0 18px 34px rgba(118,110,170,0.08);
+}
+.reflection-hero h1{
+  margin: 0 0 0.75rem 0;
+  font-size: 3rem;
+  line-height: 1.08;
+  font-weight: 800;
+  color: #35345a;
+}
+.reflection-hero p{
+  margin: 0;
+  max-width: 780px;
+  font-size: 1.05rem;
+  line-height: 1.85;
+  color: #616584;
+}
+.reflection-page-wrap{
+  max-width: 1040px;
+  margin: 0 auto 3rem auto;
+  padding: 0 1rem;
+}
+.reflection-card{
+  background: rgba(241,236,255,0.66);
+  border: 1px solid rgba(191,179,229,0.30);
+  border-radius: 34px;
+  padding: 2rem 2.2rem;
+  box-shadow: 0 16px 32px rgba(118,110,170,0.08);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+.reflection-card h2{
+  margin-top: 1.8rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.55rem;
+  line-height: 1.25;
+  font-weight: 700;
+  color: #615fa6;
+}
+.reflection-card p{
+  font-size: 1.02rem;
+  line-height: 1.9;
+  color: #4f526f;
+  margin-bottom: 1rem;
+}
+.reflection-takeaways{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.reflection-tag-card{
+  background: rgba(255,255,255,0.74);
+  border: 1px solid rgba(201,193,236,0.5);
+  border-radius: 22px;
+  padding: 1rem 1.05rem;
+  box-shadow: 0 10px 20px rgba(118,110,170,0.06);
+}
+.reflection-tag-card h3{
+  margin: 0 0 0.4rem 0;
+  font-size: 1.05rem;
+  line-height: 1.25;
+  font-weight: 700;
+  color: #6566aa;
+}
+.reflection-tag-card p{
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #5a5d78;
+}
+@media (max-width: 980px){
+  .reflection-hero-wrap,
+  .reflection-page-wrap{
+    margin: 1.2rem auto 2rem auto;
+  }
+  .reflection-hero,
+  .reflection-card{
+    padding: 1.4rem 1.2rem;
+    border-radius: 24px;
+  }
+  .reflection-hero h1{
+    font-size: 2.3rem;
+  }
+  .reflection-card h2{
+    font-size: 1.3rem;
+  }
+  .reflection-takeaways{
+    grid-template-columns: 1fr !important;
+  }
+}
+</style>
+<div class="reflection-hero-wrap">
+  <div class="reflection-hero">
+    <h1>Reflection</h1>
+    <p>
+      Building this portfolio became more than a design task. It was a process of reviewing my academic journey, solving practical web problems, and learning how presentation, structure, and content work together in a professional digital space.
+    </p>
+  </div>
+</div>
 
-
+<div class="reflection-page-wrap">
+  <div class="reflection-card">
+<section id="what-i-learned-from-creating-this-portfolio" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-learned-from-creating-this-portfolio">What I learned from creating this portfolio</h2>
+<p>Developing this portfolio helped me think more critically about how academic work can be presented in a professional, personal, and accessible way. Rather than simply listing modules or assignments, I had to decide how each section should represent my strengths, interests, and future direction. This process made me reflect not only on the content of my work, but also on how design, structure, and presentation shape the impression a viewer receives.</p>
+<p>Through building this website, I became more aware of the connection between business analysis, communication, and digital presentation. My academic projects, particularly in enterprise development, process improvement, and supply chain thinking, showed me that strong ideas need to be supported by clear structure, evidence, and practical recommendation. Translating those ideas into a portfolio format encouraged me to present them more selectively and more thoughtfully.</p>
 </section>
+<section id="challenges-i-faced-during-development" class="level2">
+<h2 class="anchored" data-anchor-id="challenges-i-faced-during-development">Challenges I faced during development</h2>
+<p>One of the biggest challenges I encountered was getting the layout to behave consistently across different pages. At several points, when I adjusted the homepage or projects page, the same style rules unexpectedly affected the about page or reflection page. This showed me that web design requires not only creativity, but also accuracy and control. A small visual change could have a wider impact than expected, so I needed to test each adjustment carefully.</p>
+<p>Another challenge was editing files through the terminal. Because many updates were made through command-based editing rather than directly using a visual editor, I had to be especially careful with formatting and structure. At times, pasted content was inserted in the wrong place, long commands were affected by quoting issues, or blocks were displayed as raw code instead of being rendered properly. These mistakes were frustrating, but they also taught me to work more patiently and to check each step before moving on.</p>
+<p>I also experienced difficulties with GitHub deployment. There were moments when the local preview looked correct, but the online version did not refresh immediately. This forced me to understand the difference between source files, rendered output, and the deployed <code>docs</code> folder used by GitHub Pages. It helped me realise that publishing a website is not only about design – it also depends on file structure, deployment settings, and version control.</p>
+</section>
+<section id="reflection-on-problem-solving" class="level2">
+<h2 class="anchored" data-anchor-id="reflection-on-problem-solving">Reflection on problem-solving</h2>
+<p>Although the process was sometimes difficult, it improved my confidence in solving technical problems in a structured way. I had to identify which file or style rule was causing a problem, test smaller changes, review the result, and then refine the solution without damaging the rest of the site. This felt very similar to business problem-solving, where a challenge often needs to be broken down, tested carefully, and improved through iteration.</p>
+<p>I also learned the value of patience and persistence. At several points, a design update that seemed simple created unexpected problems elsewhere in the site. Instead of abandoning the idea, I had to review previous versions, compare outcomes, and make gradual improvements. This reminded me that professional results often come through refinement rather than speed. It also reinforced the importance of accuracy, especially when working with digital tools that are sensitive to small structural errors.</p>
+</section>
+<section id="personal-growth-and-future-direction" class="level2">
+<h2 class="anchored" data-anchor-id="personal-growth-and-future-direction">Personal growth and future direction</h2>
+<p>This portfolio process also helped me think more clearly about my future development. It confirmed my interest in areas that combine analysis, communication, and structured presentation. Business analysis, marketing planning, process improvement, and operations-related work all require the ability to organise information clearly and present ideas in a way that others can understand and act upon. Creating this website gave me a chance to practise those skill in a practical and visible format.</p>
+<p>Looking ahead, I would like to continue improving both the content and technical quality of the site. I want to present future projects with stronger visual storytelling, clearer professional structure, and more confidence in how I communicate ideas online. I also hope to build a better understanding of digital presentation tools, because I now see them not only as technical skills, but as a part of professional communication.</p>
+</section>
+<section id="key-takeaways" class="level2">
+<h2 class="anchored" data-anchor-id="key-takeaways">Key takeaways</h2>
+<div class="reflection-takeaways">
+  <div class="reflection-tag-card">
+    <h3 class="anchored">What I learned</h3>
+    <p>I learned that strong presentation improves the clarity, credibility, and professionalism of academic work.</p>
+  </div>
+  <div class="reflection-tag-card">
+    <h3 class="anchored">Challenges faced</h3>
+    <p>I dealt with layout conflicts, terminal editing issues, and deployment problems during development.</p>
+  </div>
+  <div class="reflection-tag-card">
+    <h3 class="anchored">Future growth</h3>
+    <p>I want to continue strengthening the balance between analytical thinking, digital presentation, and professional communication.</p>
+  </div>
+</div>
+<p>Overall, creating this portfolio has been a meaningful learning experience. It allowed me to reflect on my academic journey, recognise the importance of design and usability, and develop a clearer understanding of how content, structure, and presentation work together. More importantly, it showed me that presenting my work effectively is not only about appearance. It is about clarity, intention, and the ability to communicate who I am, what I have learned, and what I can contribute.</p>
+  </section></div>
+</div>
+
+
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
