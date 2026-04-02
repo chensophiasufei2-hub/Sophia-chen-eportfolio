@@ -1,0 +1,103 @@
+---
+title: "Home"
+format:
+  html:
+    toc: false
+    page-layout: full
+---
+
+```{=html}
+<section class="wireframe-home">
+
+  <section class="wireframe-header">
+    <div class="wf-logo">Sophia Sufei Chen</div>
+    <nav class="wf-nav">
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="certificate.html">Certificates</a>
+      <a href="cv.html">CV</a>
+      <a href="reflection.html">Reflection</a>
+    </nav>
+  </section>
+
+  <section class="wireframe-hero">
+    <div class="wf-hero-image">
+      <img src="images/homepage.jpg" alt="Homepage visual">
+      <div class="wf-hero-overlay">
+        <h1>Start your academic and professional journey</h1>
+        <a href="projects.html" class="wf-cta">View Projects</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="wireframe-main">
+
+    <div class="wf-carousel">
+      <div class="wf-carousel-box">
+        <div class="wf-arrow">‹</div>
+        <div class="wf-dots">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="wf-arrow">›</div>
+      </div>
+    </div>
+
+    <aside class="wf-sidebar">
+      <h3>Quick Access</h3>
+      <ul>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">Featured Projects</a></li>
+        <li><a href="certificate.html">Professional Development</a></li>
+        <li><a href="reflection.html">Critical Reflection</a></li>
+      </ul>
+    </aside>
+
+  </section>
+
+  <section class="wf-text-block">
+    <h2>Professional Overview</h2>
+    <p>
+      I am a final-year Business Studies student with growing strengths in business analysis,
+      marketing strategy, process improvement, and professional communication.
+    </p>
+    <p>
+      This ePortfolio presents academic projects, independent learning, reflection, and evidence
+      of professional development in a clear and structured format.
+    </p>
+  </section>
+
+  <section class="wf-card-row">
+    <article class="wf-mini-card">
+      <div class="wf-mini-image"></div>
+      <h3>About</h3>
+      <p>A concise introduction to my background, academic path, and interests.</p>
+    </article>
+    <article class="wf-mini-card">
+      <div class="wf-mini-image"></div>
+      <h3>Projects</h3>
+      <p>Examples of coursework, business analysis, and technical learning.</p>
+    </article>
+    <article class="wf-mini-card">
+      <div class="wf-mini-image"></div>
+      <h3>Reflection</h3>
+      <p>Thoughts on learning, portfolio development, and future direction.</p>
+    </article>
+  </section>
+
+  <footer class="wf-footer">
+    <div>
+      <strong>Contact</strong><br>
+      Dublin, Ireland<br>
+      Available for academic and professional networking
+    </div>
+    <div>
+      <strong>Connect</strong><br>
+      LinkedIn | Email
+    </div>
+    <div>
+      © 2026 Sophia Sufei Chen
+    </div>
+  </footer>
+
+</section>
+```

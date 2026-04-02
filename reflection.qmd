@@ -3,315 +3,53 @@ title: "Reflection"
 format:
   html:
     toc: false
+    page-layout: full
 ---
 
 ```{=html}
-<style>
-.reflection-hero-wrap{
-  max-width: 1040px;
-  margin: 2rem auto 1.2rem auto;
-  padding: 0 1rem;
-}
-.reflection-hero{
-  background: linear-gradient(135deg, rgba(243,236,255,0.95), rgba(235,243,255,0.88));
-  border: 1px solid rgba(190,178,230,0.34);
-  border-radius: 34px;
-  padding: 2.2rem 2.4rem;
-  box-shadow: 0 18px 34px rgba(118,110,170,0.08);
-}
-.reflection-hero h1{
-  margin: 0 0 0.75rem 0;
-  font-size: 3rem;
-  line-height: 1.08;
-  font-weight: 800;
-  color: #35345a;
-}
-.reflection-hero p{
-  margin: 0;
-  max-width: 780px;
-  font-size: 1.05rem;
-  line-height: 1.85;
-  color: #616584;
-}
-.reflection-page-wrap{
-  max-width: 1040px;
-  margin: 0 auto 3rem auto;
-  padding: 0 1rem;
-}
-.reflection-card{
-  background: rgba(241,236,255,0.66);
-  border: 1px solid rgba(191,179,229,0.30);
-  border-radius: 34px;
-  padding: 2rem 2.2rem;
-  box-shadow: 0 16px 32px rgba(118,110,170,0.08);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-}
-.reflection-card h2{
-  margin-top: 1.8rem;
-  margin-bottom: 0.75rem;
-  font-size: 1.55rem;
-  line-height: 1.25;
-  font-weight: 700;
-  color: #615fa6;
-}
-.reflection-card p{
-  font-size: 1.02rem;
-  line-height: 1.9;
-  color: #4f526f;
-  margin-bottom: 1rem;
-}
-.reflection-takeaways{
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
-  margin-top: 2rem;
-}
-.reflection-tag-card{
-  background: rgba(255,255,255,0.74);
-  border: 1px solid rgba(201,193,236,0.5);
-  border-radius: 22px;
-  padding: 1rem 1.05rem;
-  box-shadow: 0 10px 20px rgba(118,110,170,0.06);
-}
-.reflection-tag-card h3{
-  margin: 0 0 0.4rem 0;
-  font-size: 1.05rem;
-  line-height: 1.25;
-  font-weight: 700;
-  color: #6566aa;
-}
-.reflection-tag-card p{
-  margin: 0;
-  font-size: 0.95rem;
-  line-height: 1.7;
-  color: #5a5d78;
-}
-@media (max-width: 980px){
-  .reflection-hero-wrap,
-  .reflection-page-wrap{
-    margin: 1.2rem auto 2rem auto;
-  }
-  .reflection-hero,
-  .reflection-card{
-    padding: 1.4rem 1.2rem;
-    border-radius: 24px;
-  }
-  .reflection-hero h1{
-    font-size: 2.3rem;
-  }
-  .reflection-card h2{
-    font-size: 1.3rem;
-  }
-  .reflection-takeaways{
-    grid-template-columns: 1fr !important;
-  }
-}
-</style>
-<div class="reflection-hero-wrap">
-  <div class="reflection-hero">
-    <h1>Reflection</h1>
-    <p>
-      Building this portfolio became more than a design task. It was a process of reviewing my academic journey, solving practical web problems, and learning how presentation, structure, and content work together in a professional digital space.
-    </p>
+<section class="editorial-page">
+  <div class="editorial-page-head">
+    <div class="editorial-page-index">/REFLECTION</div>
+    <h1>Reflection & Learning</h1>
   </div>
-</div>
 
-<div class="reflection-page-wrap">
-  <div class="reflection-card">
+  <section class="editorial-block">
+    <div class="editorial-subhead">
+      <div class="editorial-mini-index">01</div>
+      <h2>What I Learned</h2>
+    </div>
+    <div class="editorial-body-copy">
+      <p>
+        Building this portfolio helped me think more carefully about how academic work can be presented in a professional format. It required me to organise content, make design decisions, and reflect on which experiences best represent my development.
+      </p>
+    </div>
+  </section>
+
+  <section class="editorial-grid editorial-grid-two">
+    <article class="editorial-cell">
+      <h3>Challenges</h3>
+      <p>
+        One of the main challenges was balancing design, structure, and technical setup. I learned that a portfolio should not only look appealing, but also remain clear, functional, and easy to navigate.
+      </p>
+    </article>
+    <article class="editorial-cell">
+      <h3>Skills Developed</h3>
+      <p>
+        This process strengthened my digital presentation skills, attention to detail, problem solving, and ability to communicate professional identity through online content.
+      </p>
+    </article>
+  </section>
+
+  <section class="editorial-block">
+    <div class="editorial-subhead">
+      <div class="editorial-mini-index">02</div>
+      <h2>Future Direction</h2>
+    </div>
+    <div class="editorial-body-copy">
+      <p>
+        Moving forward, I want to continue building experience in business analysis, marketing, and professional communication. This portfolio represents both what I have learned so far and the direction I hope to continue developing in the future.
+      </p>
+    </div>
+  </section>
+</section>
 ```
-
-## What I learned from creating this portfolio
-
-Developing this portfolio helped me think more critically about how academic work can be presented in a professional, personal, and accessible way. Rather than simply listing modules or assignments, I had to decide how each section should represent my strengths, interests, and future direction. This process made me reflect not only on the content of my work, but also on how design, structure, and presentation shape the impression a viewer receives.
-
-Through building this website, I became more aware of the connection between business analysis, communication, and digital presentation. My academic projects, particularly in enterprise development, process improvement, and supply chain thinking, showed me that strong ideas need to be supported by clear structure, evidence, and practical recommendation. Translating those ideas into a portfolio format encouraged me to present them more selectively and more thoughtfully.
-
-## Challenges I faced during development
-
-One of the biggest challenges I encountered was getting the layout to behave consistently across different pages. At several points, when I adjusted the homepage or projects page, the same style rules unexpectedly affected the about page or reflection page. This showed me that web design requires not only creativity, but also accuracy and control. A small visual change could have a wider impact than expected, so I needed to test each adjustment carefully.
-
-Another challenge was editing files through the terminal. Because many updates were made through command-based editing rather than directly using a visual editor, I had to be especially careful with formatting and structure. At times, pasted content was inserted in the wrong place, long commands were affected by quoting issues, or blocks were displayed as raw code instead of being rendered properly. These mistakes were frustrating, but they also taught me to work more patiently and to check each step before moving on.
-
-I also experienced difficulties with GitHub deployment. There were moments when the local preview looked correct, but the online version did not refresh immediately. This forced me to understand the difference between source files, rendered output, and the deployed `docs` folder used by GitHub Pages. It helped me realise that publishing a website is not only about design – it also depends on file structure, deployment settings, and version control.
-
-## Reflection on problem-solving
-
-Although the process was sometimes difficult, it improved my confidence in solving technical problems in a structured way. I had to identify which file or style rule was causing a problem, test smaller changes, review the result, and then refine the solution without damaging the rest of the site. This felt very similar to business problem-solving, where a challenge often needs to be broken down, tested carefully, and improved through iteration.
-
-I also learned the value of patience and persistence. At several points, a design update that seemed simple created unexpected problems elsewhere in the site. Instead of abandoning the idea, I had to review previous versions, compare outcomes, and make gradual improvements. This reminded me that professional results often come through refinement rather than speed. It also reinforced the importance of accuracy, especially when working with digital tools that are sensitive to small structural errors.
-
-## Personal growth and future direction
-
-This portfolio process also helped me think more clearly about my future development. It confirmed my interest in areas that combine analysis, communication, and structured presentation. Business analysis, marketing planning, process improvement, and operations-related work all require the ability to organise information clearly and present ideas in a way that others can understand and act upon. Creating this website gave me a chance to practise those skill in a practical and visible format.
-
-Looking ahead, I would like to continue improving both the content and technical quality of the site. I want to present future projects with stronger visual storytelling, clearer professional structure, and more confidence in how I communicate ideas online. I also hope to build a better understanding of digital presentation tools, because I now see them not only as technical skills, but as a part of professional communication.
-
-## Key takeaways
-
-```{=html}
-<div class="reflection-takeaways">
-  <div class="reflection-tag-card">
-    <h3>What I learned</h3>
-    <p>I learned that strong presentation improves the clarity, credibility, and professionalism of academic work.</p>
-  </div>
-  <div class="reflection-tag-card">
-    <h3>Challenges faced</h3>
-    <p>I dealt with layout conflicts, terminal editing issues, and deployment problems during development.</p>
-  </div>
-  <div class="reflection-tag-card">
-    <h3>Future growth</h3>
-    <p>I want to continue strengthening the balance between analytical thinking, digital presentation, and professional communication.</p>
-  </div>
-</div>
-```
-
-Overall, creating this portfolio has been a meaningful learning experience. It allowed me to reflect on my academic journey, recognise the importance of design and usability, and develop a clearer understanding of how content, structure, and presentation work together. More importantly, it showed me that presenting my work effectively is not only about appearance. It is about clarity, intention, and the ability to communicate who I am, what I have learned, and what I can contribute.
-
-```{=html}
-  </div>
-</div>
-```
-
-
-```{=html}
-<style>
-/* ===== FINAL NAVY + LIGHT BLUE OVERRIDE ===== */
-#quarto-header,
-#quarto-header .navbar,
-.navbar,
-.navbar-expand-lg,
-.navbar.navbar-expand-lg,
-.headroom,
-.headroom--pinned,
-.headroom--unpinned {
-  background: #163458 !important;
-  background-color: #163458 !important;
-  background-image: none !important;
-  box-shadow: 0 10px 24px rgba(17,39,67,0.18) !important;
-  border: none !important;
-}
-
-#quarto-header *,
-.navbar *,
-.navbar-brand,
-.navbar-brand .menu-text,
-.navbar-nav .nav-link,
-.navbar-nav .nav-link .menu-text,
-.navbar .nav-link,
-.navbar .nav-link .menu-text,
-.navbar .navbar-title,
-.navbar .title,
-.menu-text {
-  color: #ffffff !important;
-}
-
-html, body, main.content, .page-columns, .page-full, .column-page, #quarto-content {
-  background: linear-gradient(180deg, #eef3f8, #e7eef6) !important;
-  color: #5c6b7a !important;
-}
-
-.preview-entry-card,
-.home-feature-card,
-.home-contact-card,
-.connect-form,
-.guestbook-shell,
-.reflection-hero,
-.reflection-card,
-.certificate-hero,
-.certificate-card,
-#home-about .home-about-panel,
-#home-about .home-about-text,
-#home-about .home-about-image,
-.panel,
-.card,
-.card-body,
-.callout,
-.callout-note,
-.callout-tip,
-.callout-important,
-div[style*="background:rgba(255,255,255"],
-div[style*="background: rgba(255,255,255"],
-div[style*="rgba(243,236,255"],
-div[style*="rgba(241,236,255"] {
-  background: rgba(236,243,250,0.95) !important;
-  background-color: rgba(236,243,250,0.95) !important;
-  background-image: none !important;
-  border-color: rgba(176,191,210,0.38) !important;
-  color: #5c6b7a !important;
-}
-
-h1, h2, h3, h4, h5, h6,
-.title,
-.quarto-title,
-strong, b {
-  color: #24364a !important;
-}
-
-p, li, span, label, small {
-  color: #5c6b7a !important;
-}
-
-button,
-.btn,
-.btn-primary,
-.certificate-btn,
-.preview-entry-link,
-#home-about .home-pill,
-#home-connect .connect-btn,
-.enter-home-btn,
-a.btn,
-a[role="button"] {
-  background: linear-gradient(135deg, #163458, #234b78) !important;
-  background-color: #163458 !important;
-  color: #ffffff !important;
-  border: 1px solid rgba(255,255,255,0.16) !important;
-  box-shadow: 0 12px 24px rgba(24,52,88,0.16) !important;
-}
-
-input, textarea, select {
-  background: rgba(255,255,255,0.96) !important;
-  border: 1px solid rgba(176,191,210,0.42) !important;
-  color: #24364a !important;
-}
-
-input::placeholder,
-textarea::placeholder {
-  color: #7b8794 !important;
-}
-
-.home-side-nav a {
-  background: rgba(236,243,250,0.96) !important;
-  border: 1px solid rgba(176,191,210,0.34) !important;
-  color: #163458 !important;
-}
-
-.home-side-nav a.is-active {
-  background: linear-gradient(135deg, #163458, #234b78) !important;
-  color: #ffffff !important;
-}
-
-.guestbook-shell .message-card,
-.guestbook-shell .guestbook-bubble,
-.guestbook-shell .guestbook-message,
-.guestbook-shell .chat-bubble,
-.guestbook-shell .guest-entry,
-.guestbook-shell .message,
-.guestbook-shell .note-card {
-  background: rgba(245,249,253,0.97) !important;
-  border: 1px solid rgba(185,198,214,0.34) !important;
-  box-shadow: 0 10px 22px rgba(31,58,91,0.08) !important;
-}
-
-[style*="243,236,255"],
-[style*="241,236,255"],
-[style*="#7d74d9"],
-[style*="#9a92eb"],
-[style*="rgba(243,236,255"],
-[style*="rgba(241,236,255"] {
-  background: rgba(236,243,250,0.95) !important;
-  color: #24364a !important;
-}
-</style>
-```
-

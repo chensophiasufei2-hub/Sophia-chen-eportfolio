@@ -1,0 +1,55 @@
+---
+title: "Reflection"
+format:
+  html:
+    toc: false
+    page-layout: full
+---
+
+```{=html}
+<section class="editorial-page">
+  <div class="editorial-page-head">
+    <div class="editorial-page-index">/REFLECTION</div>
+    <h1>Reflection & Learning</h1>
+  </div>
+
+  <section class="editorial-block">
+    <div class="editorial-subhead">
+      <div class="editorial-mini-index">01</div>
+      <h2>What I Learned</h2>
+    </div>
+    <div class="editorial-body-copy">
+      <p>
+        Building this portfolio helped me think more carefully about how academic work can be presented in a professional format. It required me to organise content, make design decisions, and reflect on which experiences best represent my development.
+      </p>
+    </div>
+  </section>
+
+  <section class="editorial-grid editorial-grid-two">
+    <article class="editorial-cell">
+      <h3>Challenges</h3>
+      <p>
+        One of the main challenges was balancing design, structure, and technical setup. I learned that a portfolio should not only look appealing, but also remain clear, functional, and easy to navigate.
+      </p>
+    </article>
+    <article class="editorial-cell">
+      <h3>Skills Developed</h3>
+      <p>
+        This process strengthened my digital presentation skills, attention to detail, problem solving, and ability to communicate professional identity through online content.
+      </p>
+    </article>
+  </section>
+
+  <section class="editorial-block">
+    <div class="editorial-subhead">
+      <div class="editorial-mini-index">02</div>
+      <h2>Future Direction</h2>
+    </div>
+    <div class="editorial-body-copy">
+      <p>
+        Moving forward, I want to continue building experience in business analysis, marketing, and professional communication. This portfolio represents both what I have learned so far and the direction I hope to continue developing in the future.
+      </p>
+    </div>
+  </section>
+</section>
+```
